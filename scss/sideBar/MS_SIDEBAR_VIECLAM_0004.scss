@@ -1,0 +1,24 @@
+.gb-page-sanpham_ruouvang-vieclammoi-ngangnghe{
+  .widget-title-sidebar-ruouvang{
+    font-size: 14px;
+    font-weight: 600;
+    text-align: left;
+    color: $color-white;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    position: relative;
+    line-height: 40px;
+    padding-left: 10px;
+    background: $color-main-ruouvang;
+    border-left: 5px solid $color-main1-ruouvang;
+  }
+  ul{
+    li{
+      display: block;
+      color: #1790d4;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 30px;
+    }
+  }
+}

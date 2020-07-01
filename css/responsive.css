@@ -1,0 +1,15 @@
+@media screen and (max-width: 992px) {
+  .img-nha-tuyen-dung, .ung-vien-img {
+  	display: none;
+  }
+  
+
+  ul.menu-mobile-spec {
+  	display: inline-block;
+  	width: 48%;
+  }
+
+  .gb-hotlinetuvasn-vieclam-home .gb-hotlinetuvasn-vieclam-home-title h4 {
+  	font-size: 16px;
+  }
+}

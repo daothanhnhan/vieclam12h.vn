@@ -1,0 +1,100 @@
+.gb-chitiet-vieclam{
+  padding: 50px 0;
+  .gb-chitiet-vieclam-title{
+    .gb-chitiet-vieclam-img{
+      img{
+        width: 100%;
+        height: auto;
+      }
+    }
+    .gb-chitiet-vieclam-noidung{
+      h1{
+        font-weight: 600;
+        font-size: 20px;
+        text-align: left;
+        color: #499cd6;
+      }
+      h4{
+        font-size: 14px;
+        overflow-x: hidden;
+        overflow-y: auto;
+        color: #499cd6;
+        margin: 15px 0;
+      }
+      ul{
+        li{
+          font-size: 14px;
+          color: #000;
+          line-height: 24px;
+          strong {
+            font-weight: bold;
+          }
+          .prices_ruouvang{
+            display: inline-block;
+            .prices_ruouvang-old{
+              display: inline-block;
+            }
+          }
+        }
+      }
+    }
+    .gb-chitiet-vieclam-tag{
+      ul{
+        li{
+          font-size: 14px;
+          color: #000;
+          line-height: 24px;
+        }
+      }
+    }
+  }
+  .gb-chitiet-vieclam-left{
+    .heading-title-vieclam{
+      position: relative;
+      font-weight: 600;
+      border-bottom: 2px solid #f7f7f7;
+      font-size: 15px;
+      padding-bottom: 9px;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      &:before{
+        background: #0091ce none repeat scroll 0 0;
+        border-radius: 12px;
+        content: "";
+        height: 2px;
+        left: 0;
+        position: absolute;
+        top: 31px;
+        width: 100px;
+      }
+    }
+    ul{
+      li{
+        font-size: 14px;
+        color: #000;
+        line-height: 30px;
+        strong {
+          font-weight: bold;
+        }
+        .prices_ruouvang{
+          display: inline-block;
+          .prices_ruouvang-old{
+            display: inline-block;
+          }
+        }
+      }
+    }
+    p{
+      line-height: 24px;
+      font-weight: 400;
+      font-size: 14px;
+      color: #353535;
+    }
+    .gb-chitiet-vieclam-left-mota{
+      margin-bottom: 30px;
+    }
+    .gb-chitiet-vieclam-left-info{
+      margin-bottom: 30px;
+    }
+  }
+}

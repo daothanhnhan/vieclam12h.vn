@@ -1,0 +1,32 @@
+.gb-dangky-ungvien h1 {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 15px;
+  text-align: center;
+  text-transform: uppercase; }
+
+.gb-dangky-ungvien h2 {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 15px;
+  text-align: center;
+  text-transform: uppercase; }
+
+.gb-dangky-ungvien label {
+  display: block;
+  color: #1790d4;
+  font-weight: 400; }
+
+.gb-dangky-ungvien .gb-dangky-tuyendung-head {
+  background: #0091cf;
+  padding: 30px 0;
+  margin: 30px 0; }
+  .gb-dangky-ungvien .gb-dangky-tuyendung-head label {
+    color: #fff; }
+  .gb-dangky-ungvien .gb-dangky-tuyendung-head h1 {
+    color: #fff; }
+
+.gb-dangky-ungvien .gb-dangky-tuyendung-info {
+  background: #f1f1f1;
+  padding: 30px 0;
+  margin: 30px 0; }

@@ -1,0 +1,25 @@
+.gb-category-hot-vieclam{
+  display: block;
+  width: 100%;
+  margin: auto;
+  list-style: none;
+  padding: 0;
+  overflow: hidden;
+  ul{
+    li{
+      position: relative;
+      padding: 20px 14px;
+      display: inline-block;
+      &:after{
+        content: '';
+
+      }
+      a{
+        display: block;
+        color: #555;
+        font-weight: 400;
+        font-size: 14px;
+      }
+    }
+  }
+}

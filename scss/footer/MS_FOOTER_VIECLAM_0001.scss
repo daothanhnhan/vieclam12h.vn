@@ -1,0 +1,88 @@
+.footer-main-content_ruouvang{
+  .footer-main-content_ruouvang-top{
+    background: #f1f1f1;
+    padding: 50px 0;
+  }
+  h2{
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  .footer-main-content_ruouvang-bottom{
+    padding: 50px 0;
+    background:  #499cd6;
+  }
+}
+.copyright-area_ruouvang{
+  p{
+    text-align: center;
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    padding: 15px 0;
+    color: #fff;
+  }
+}
+.widget-title-footer-ruouvang{
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  color: #499cd6;
+}
+
+/*footer-about-ruouvang*/
+.footer-lienhe-ruouvang{
+  h2{
+    font-size: 14px;
+    font-weight: bold;
+    color: #000;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+  }
+  ul{
+    li{
+      font-size: 14px;
+      color: #fff;
+      line-height: 26px;
+      margin-bottom: 10px;
+      span{
+        font-weight: 700;
+      }
+    }
+  }
+}
+
+/*footer-recentpost-ruouvang*/
+.footer-link-ruouvang{
+  ul{
+    li{
+      a{
+        display: block;
+        font-size: 14px;
+        color: #499cd6;
+        line-height: 26px;
+      }
+    }
+  }
+}
+.footer-ruouvang-right{
+  border-left: 1px solid #ccc;
+  .footer-bottom-right{
+    span{
+      float:  left;
+      margin-left: 15px;
+    }
+  }
+  .footer-bottom-ruouvang{
+    border-top: 1px solid #ccc;
+    display:  flow-root;
+    padding-top: 30px;
+  }
+  .footer-top-ruouvang{
+    padding: 0 0  30px 30px;
+  }
+}

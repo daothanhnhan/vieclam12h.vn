@@ -1,0 +1,3621 @@
+@charset "UTF-8";
+/*Định nghĩa màu cho website*/
+/*Định nghĩa font-family cho website*/
+@import url(../plugin/fonts/roboto/roboto.css);
+/*Định nghĩa font-size cho website*/
+h1 {
+  font-size: 24px;
+  line-height: 1.5; }
+
+h2 {
+  font-size: 22px;
+  line-height: 1.5; }
+
+h3 {
+  font-size: 20px;
+  line-height: 1.5; }
+
+h4 {
+  font-size: 18px;
+  line-height: 1.5; }
+
+h5 {
+  font-size: 16px;
+  line-height: 1.5; }
+
+h6 {
+  font-size: 14px;
+  line-height: 1.5; }
+
+p {
+  line-height: 1.5; }
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  font-family: "Roboto";
+  line-height: 1.5; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: ''; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+a:hover {
+  text-decoration: none; }
+
+.vh-tuyen-dung{
+  background-color: #d55c58;
+}  
+.vh-ung-tuyen{
+  background-color: #02a18b;
+} 
+.clear-padding {
+  padding: 0; }
+
+.clear-padding-left {
+  padding-left: 0; }
+
+.clear-padding-right {
+  padding-right: 0; }
+
+.padding-5px {
+  padding: 5px; }
+  @media screen and (max-width: 991px){
+    .clear-padding {
+      padding: 0 15px; }
+
+    .clear-padding-left {
+      padding-left: 15px; }
+
+    .clear-padding-right {
+      padding-right: 15px; }
+
+    .padding-5px {
+      padding: 5px; }
+  }
+
+.gb-divider {
+  width: 100%;
+  border-top-width: 1px;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-right-width: 0;
+  border-style: dashed;
+  border-color: #E0E0E0;
+  overflow: hidden;
+  margin: 30px 0; }
+
+.gb-slideshow_ruouvang-slide{
+
+}
+.gb-icon-home{
+  
+}
+
+/*header*/
+.an-chuyen-vien{
+	display: block;
+}
+@media screen and (max-width: 767px) {
+	.an-chuyen-vien{
+	display: none;
+}
+  .gb-header-ruouvang .gb-header-between_ruouvang-between {
+    display: none; } }
+
+@media screen and (max-width: 991px) {
+  .gb-header-ruouvang .gb-header-search_ruouvang {
+    margin: 15px 0; } }
+
+.gb-top-header_ruouvang {
+  background: #f1f1f1; }
+  @media screen and (max-width: 767px) {
+    .gb-top-header_ruouvang-left {
+      display: none; } }
+  .gb-top-header_ruouvang-left ul li {
+    display: inline-block;
+    color: #333;
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 15px;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s; }
+    .gb-top-header_ruouvang-left ul li:hover {
+      color: #f79321; }
+    .gb-top-header_ruouvang-left ul li i {
+      margin-right: 5px; }
+    @media screen and (max-width: 991px) {
+      .gb-top-header_ruouvang-left ul li {
+        font-size: 11px;
+        padding: 15px 5px; } }
+  .gb-top-header_ruouvang-right {
+    text-align: right; }
+    .gb-top-header_ruouvang-right ul li {
+      display: inline-block; }
+      .gb-top-header_ruouvang-right ul li a {
+        display: block;
+        color: #333;
+        font-weight: 700;
+        font-size: 12px;
+        text-transform: uppercase;
+        padding: 15px;
+        -webkit-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s; }
+        .gb-top-header_ruouvang-right ul li a:hover {
+          color: #f79321; }
+        .gb-top-header_ruouvang-right ul li a i {
+          margin-right: 5px; }
+        @media screen and (max-width: 991px) {
+          .gb-top-header_ruouvang-right ul li a {
+            font-size: 11px;
+            padding: 15px 5px; } }
+
+.gb-header-between_ruouvang {
+  padding: 10px 0;
+  background: #19a05e; }
+  .gb-header-between_ruouvang a {
+    display: block; }
+    .gb-header-between_ruouvang a img {
+      width: 81%;
+      height: auto;
+    }
+@media screen and (max-width: 991px) {
+  .gb-header-between_ruouvang a img {
+    width: 18%;
+    margin-right: auto;
+    /*margin-left: auto;*/
+  }
+}
+.gb-header-between_ruouvang-right {
+  padding-top: 13px;
+  text-align: center; }
+  .gb-header-between_ruouvang-right ul li {
+    display: inline-block;
+    border-right: 2px dotted #f79321; }
+    .gb-header-between_ruouvang-right ul li:last-child {
+      border-right: none; }
+
+/*menu*/
+.gb-header-between {
+  padding: 20px 0; }
+  @media screen and (max-width: 991px) {
+    .gb-header-between .gb-header-between-logo_ldpvinhome {
+      width: 220px; } }
+
+/*MENU DESKTOP*/
+.is-sticky {
+  position: relative;
+  z-index: 9999; }
+
+.gb-main-menu_ldpvinhome {
+  position: relative; }
+  .gb-main-menu_ldpvinhome .main-menu {
+    position: relative; }
+  .gb-main-menu_ldpvinhome .cssmenu,
+  .gb-main-menu_ldpvinhome .cssmenu ul,
+  .gb-main-menu_ldpvinhome .cssmenu ul li,
+  .gb-main-menu_ldpvinhome .cssmenu ul li a,
+  .gb-main-menu_ldpvinhome .cssmenu #menu-button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+    line-height: 1;
+    display: block;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+  .gb-main-menu_ldpvinhome .cssmenu:after,
+  .gb-main-menu_ldpvinhome .cssmenu > ul:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0; }
+  .gb-main-menu_ldpvinhome .cssmenu #menu-button {
+    display: none; }
+  .gb-main-menu_ldpvinhome .cssmenu {
+    text-align: right;
+    width: auto;
+    line-height: 1; }
+    @media screen and (max-width: 991px) {
+      .gb-main-menu_ldpvinhome .cssmenu {
+        display: none; } }
+  .gb-main-menu_ldpvinhome .cssmenu > ul > li {
+    display: inline-block;
+    position: initial; }
+  .gb-main-menu_ldpvinhome .cssmenu.align-center > ul {
+    font-size: 0;
+    text-align: center; }
+  .gb-main-menu_ldpvinhome .cssmenu.align-center > ul > li {
+    display: inline-block;
+    float: none; }
+  .gb-main-menu_ldpvinhome .cssmenu.align-center ul ul {
+    text-align: left; }
+  .gb-main-menu_ldpvinhome .cssmenu.align-right > ul > li {
+    float: right; }
+  .gb-main-menu_ldpvinhome .cssmenu.align-right ul ul {
+    text-align: right; }
+  .gb-main-menu_ldpvinhome .cssmenu > ul > li > a {
+    font-size: 14px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+    padding: 6px 13px;
+    height: 47px;
+    line-height: 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    -webkit-transition: color .2s ease;
+    -o-transition: color .2s ease;
+    transition: color .2s ease;
+        display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+  }
+    @media screen and (min-width: 992px) and (max-width: 1199px) {
+      .gb-main-menu_ldpvinhome .cssmenu > ul > li > a {
+        font-size: 11px;
+        padding: 20px 10px; } }
+  .gb-main-menu_ldpvinhome .cssmenu > ul > li:hover > a,
+  .gb-main-menu_ldpvinhome .cssmenu > ul > li.active > a {
+    color: #ffce45; }
+  .gb-main-menu_ldpvinhome .cssmenu > ul > li.has-sub > a:hover:before {
+    content: '';
+    display: block; }
+  .gb-main-menu_ldpvinhome .cssmenu > ul > li.has-sub:hover > a::after {
+    border-color: #fff; }
+  .gb-main-menu_ldpvinhome .cssmenu ul ul {
+    position: absolute;
+    left: -9999px;
+    z-index: 2;
+    background: #ffffff;
+    -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5); }
+  .gb-main-menu_ldpvinhome .cssmenu li:hover > ul {
+    left: auto;
+  }
+  .gb-main-menu_ldpvinhome .cssmenu.align-right li:hover > ul {
+    right: 0; }
+  .gb-main-menu_ldpvinhome .cssmenu ul ul ul {
+    margin-left: 100%;
+    top: 0;
+    background: #ffffff;
+    -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5); }
+  .gb-main-menu_ldpvinhome .cssmenu ul ul ul li a {
+    color: #666666;
+    border-top: 1px solid #e0e0e0; }
+  .gb-main-menu_ldpvinhome .cssmenu.align-right ul ul ul {
+    margin-left: 0;
+    margin-right: 100%; }
+  .gb-main-menu_ldpvinhome .cssmenu ul ul li {
+    -webkit-transition: height .2s ease;
+    -o-transition: height .2s ease;
+    transition: height .2s ease; }
+  .gb-main-menu_ldpvinhome .cssmenu ul ul li a {
+    display: block;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    text-align: left;
+    color: #666666;
+    padding: 12px 20px;
+    min-width: 240px;
+    background: transparent;
+    border-top: 1px solid #e0e0e0;
+    text-decoration: none;
+    -webkit-transition: color .2s ease;
+    -o-transition: color .2s ease;
+    transition: color .2s ease; }
+  .gb-main-menu_ldpvinhome .cssmenu ul ul li:first-child a {
+    border-top: none; }
+  .gb-main-menu_ldpvinhome .cssmenu ul ul li:hover > a,
+  .gb-main-menu_ldpvinhome .cssmenu ul ul li a:hover {
+    color: #fff;
+    background: #0091cf; }
+  .gb-main-menu_ldpvinhome .cssmenu ul ul li.has-sub > a::after {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 4px;
+    height: 4px;
+    border-bottom: 1px solid #222;
+    border-right: 1px solid #222;
+    content: "";
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-transition: border-color 0.2s ease;
+    -o-transition: border-color 0.2s ease;
+    transition: border-color 0.2s ease; }
+  .gb-main-menu_ldpvinhome .cssmenu.align-right ul ul li.has-sub > a::after {
+    right: auto;
+    left: 10px;
+    border-bottom: 0;
+    border-right: 0;
+    border-top: 1px solid #dddddd;
+    border-left: 1px solid #dddddd; }
+  .gb-main-menu_ldpvinhome .cssmenu ul ul li.has-sub:hover > a::after {
+    border-color: #fff; }
+  .gb-main-menu_ldpvinhome .cssmenu ul li:hover .gb-mega-menu {
+    display: block; }
+  .gb-main-menu_ldpvinhome .cssmenu ul li .gb-mega-menu {
+    position: absolute;
+    display: none; }
+    @media screen and (min-width: 992px) {
+      .gb-main-menu_ldpvinhome .cssmenu ul li .gb-mega-menu {
+        width: 940px;
+        left: -257px; } }
+    @media screen and (min-width: 1200px) {
+      .gb-main-menu_ldpvinhome .cssmenu ul li .gb-mega-menu {
+        width: 1140px;
+        left: -307px; } }
+    .gb-main-menu_ldpvinhome .cssmenu ul li .gb-mega-menu .box_image_sub_menu {
+      height: 270px;
+      overflow: hidden; }
+      .gb-main-menu_ldpvinhome .cssmenu ul li .gb-mega-menu .box_image_sub_menu img {
+        width: 100%;
+        height: auto; }
+    .gb-main-menu_ldpvinhome .cssmenu ul li .gb-mega-menu h3 {
+      font-weight: 600;
+      font-size: 18px;
+      color: #0091cf;
+      line-height: 1.5;
+      padding: 10px 20px; }
+    .gb-main-menu_ldpvinhome .cssmenu ul li .gb-mega-menu ul {
+      position: relative;
+      left: initial;
+      margin-left: initial;
+      -webkit-box-shadow: none;
+      box-shadow: none; }
+      .gb-main-menu_ldpvinhome .cssmenu ul li .gb-mega-menu ul li a {
+        padding: 10px 20px;
+        border: none; }
+
+/*Menu mobiles*/
+.mobile-nav .navbar-toggle {
+  z-index: 999999;
+  top: 21px; }
+
+.mobile-nav [class^="icon-"]:before, .mobile-nav [class*=" icon-"]:before {
+  width: auto !important;
+  margin-right: 0 !important; }
+
+.mobile-nav #cssmenu,
+.mobile-nav #cssmenu ul,
+.mobile-nav #cssmenu ul li,
+.mobile-nav #cssmenu ul li a,
+.mobile-nav #cssmenu #menu-button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  line-height: 1;
+  display: block;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.mobile-nav #cssmenu > ul > li > a {
+  font-size: 14px;
+  line-height: 1.43;
+  text-align: left;
+  color: #ffffff;
+  padding: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  -webkit-transition: color .2s ease;
+  -o-transition: color .2s ease;
+  transition: color .2s ease; }
+
+.mobile-nav #cssmenu ul ul li a {
+  display: block;
+  font-size: 14px;
+  text-align: left;
+  color: #222222;
+  padding: 17px 20px;
+  min-width: 240px;
+  background: transparent;
+  border-top: 1px solid #e0e0e0;
+  text-decoration: none;
+  -webkit-transition: color .2s ease;
+  -o-transition: color .2s ease;
+  transition: color .2s ease; }
+
+@media screen and (max-width: 991px) {
+  .mobile-nav #cssmenu {
+    width: 100%;
+    background: #22292d;
+    display: none;
+    position: absolute;
+    min-height: 100%;
+    z-index: 2000000; }
+  .mobile-nav .uni-icons-close {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    border: solid 1px #333333;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 35px; }
+    .mobile-nav .uni-icons-close i {
+      font-family: FontAwesome;
+      font-size: 15px;
+      line-height: 2.93;
+      text-align: center;
+      color: #aeaeae; }
+  .mobile-nav #cssmenu ul {
+    width: 100%;
+    display: none;
+    padding: 0 30px;
+    background: transparent; }
+  .mobile-nav #cssmenu ul ul {
+    background: transparent;
+    padding-right: 0; }
+  .mobile-nav #cssmenu.align-center > ul,
+  .mobile-nav #cssmenu.align-right ul ul {
+    text-align: left; }
+  .mobile-nav #cssmenu ul li,
+  .mobile-nav #cssmenu ul ul li,
+  .mobile-nav #cssmenu ul li:hover > ul > li {
+    width: 100%;
+    height: auto;
+    border-top: 1px solid rgba(120, 120, 120, 0.15); }
+  .mobile-nav #cssmenu ul ul li,
+  .mobile-nav #cssmenu ul li:hover > ul > li {
+    border-top: 1px solid transparent; }
+  .mobile-nav #cssmenu li:hover > ul {
+    border-top: 1px solid rgba(120, 120, 120, 0.15); }
+  .mobile-nav #cssmenu ul li a,
+  .mobile-nav #cssmenu ul ul li a {
+    width: 100%;
+    padding: 11px 0;
+    text-transform: inherit; }
+  .mobile-nav #cssmenu > ul > li,
+  .mobile-nav #cssmenu.align-center > ul > li,
+  .mobile-nav #cssmenu.align-right > ul > li {
+    float: none;
+    display: block; }
+  .mobile-nav #cssmenu ul ul li:last-child a {
+    border-bottom: none; }
+  .mobile-nav #cssmenu ul ul li a {
+    display: block;
+    line-height: 24px;
+    font-size: 14px;
+    color: #aeaeae;
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgba(120, 120, 120, 0.15); }
+  .mobile-nav #cssmenu ul ul li:hover > a,
+  .mobile-nav #cssmenu ul ul li a:hover {
+    color: #0091cf; }
+  .mobile-nav .home-icon {
+    background: transparent; }
+  .mobile-nav #cssmenu > ul > li:hover > a,
+  .mobile-nav #cssmenu > ul > li.active > a {
+    color: #0091cf !important; }
+  .mobile-nav #cssmenu ul ul ul li a {
+    padding-left: 0;
+    border-top: none; }
+  .mobile-nav #cssmenu ul ul,
+  .mobile-nav #cssmenu ul ul ul {
+    position: relative;
+    left: 0;
+    right: auto;
+    width: 100%;
+    margin: 0;
+    border-top: 1px solid rgba(120, 120, 120, 0.15); }
+  .mobile-nav #cssmenu > ul > li.has-sub > a::after,
+  .mobile-nav #cssmenu ul ul li.has-sub > a::after {
+    display: none; }
+  .mobile-nav #menu-line {
+    display: none; }
+  .mobile-nav #cssmenu #menu-button {
+    display: block;
+    padding: 20px;
+    color: #000000;
+    cursor: pointer; }
+  .mobile-nav #cssmenu .submenu-button {
+    position: absolute;
+    z-index: 10;
+    right: 0;
+    top: 0;
+    display: block;
+    height: 42px;
+    width: 42px;
+    cursor: pointer;
+    border-left: 1px solid rgba(120, 120, 120, 0.15); }
+  .mobile-nav #cssmenu .submenu-button::after {
+    content: '\f107';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    display: block;
+    font-family: FontAwesome;
+    color: #fff;
+    z-index: 99; }
+  .mobile-nav #cssmenu .submenu-button.active::before {
+    content: '\f106';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    display: block;
+    font-family: FontAwesome;
+    color: #0091cf;
+    z-index: 99; }
+  .mobile-nav #cssmenu ul li ul li .submenu-button::after {
+    content: '';
+    position: absolute;
+    top: 21px;
+    left: 20px;
+    display: block;
+    width: 1px;
+    height: 11px;
+    background: #fff;
+    z-index: 99; }
+  .mobile-nav #cssmenu ul li ul li .submenu-button::before {
+    content: '';
+    position: absolute;
+    left: 15px;
+    top: 21px;
+    display: block;
+    width: 11px;
+    height: 1px;
+    background: #fff;
+    z-index: 99; }
+  .mobile-nav #cssmenu ul li ul li .submenu-button.active::before {
+    content: '';
+    position: absolute;
+    left: 21px;
+    top: 21px;
+    display: block;
+    width: 11px;
+    height: 1px;
+    background: #0091cf;
+    z-index: 99; }
+  .mobile-nav #cssmenu .submenu-button.submenu-opened:after {
+    display: none; }
+  .mobile-nav .navbar-toggle .icon-bar {
+    display: inline-block; }
+  .mobile-nav .menu-mobile-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #0091cf;
+    position: absolute;
+    color: #0091cf;
+    top: 65px;
+    right: 15px;
+    z-index: 9999; } }
+
+.gb-sidebar-category_ruouvang {
+  margin-bottom: 30px; }
+  @media screen and (max-width: 991px) {
+    .gb-sidebar-category_ruouvang {
+      display: none; } }
+  .gb-sidebar-category_ruouvang .title_Module_Bar_5_ruouvang {
+    position: relative;
+    padding: 11px 0 11px 5%;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #0091cf; }
+    .gb-sidebar-category_ruouvang .title_Module_Bar_5_ruouvang i {
+      position: absolute;
+      right: 0;
+      top: 0;
+      background: #0091cf;
+      margin: 0;
+      padding: 10px 15px 10px 15px;
+      font-size: 16px;
+      color: #fff; }
+  .gb-sidebar-category_ruouvang .main-menu {
+    position: relative; }
+  .gb-sidebar-category_ruouvang .cssmenu,
+  .gb-sidebar-category_ruouvang .cssmenu ul,
+  .gb-sidebar-category_ruouvang .cssmenu ul li,
+  .gb-sidebar-category_ruouvang .cssmenu ul li a,
+  .gb-sidebar-category_ruouvang .cssmenu #menu-button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+    line-height: 1;
+    display: block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+    .gb-sidebar-category_ruouvang .cssmenu span,
+    .gb-sidebar-category_ruouvang .cssmenu ul span,
+    .gb-sidebar-category_ruouvang .cssmenu ul li span,
+    .gb-sidebar-category_ruouvang .cssmenu ul li a span,
+    .gb-sidebar-category_ruouvang .cssmenu #menu-button span {
+      margin-right: 10px; }
+      .gb-sidebar-category_ruouvang .cssmenu span img,
+      .gb-sidebar-category_ruouvang .cssmenu ul span img,
+      .gb-sidebar-category_ruouvang .cssmenu ul li span img,
+      .gb-sidebar-category_ruouvang .cssmenu ul li a span img,
+      .gb-sidebar-category_ruouvang .cssmenu #menu-button span img {
+        width: 20px; }
+  .gb-sidebar-category_ruouvang .cssmenu {
+    border: 1px solid #dcdcdc; }
+    .gb-sidebar-category_ruouvang .cssmenu ul {
+      position: relative; }
+      .gb-sidebar-category_ruouvang .cssmenu ul li {
+        border-bottom: 1px solid #dcdcdc;
+        position: relative; }
+        .gb-sidebar-category_ruouvang .cssmenu ul li:last-child {
+          border-bottom: none; }
+        .gb-sidebar-category_ruouvang .cssmenu ul li a {
+          position: relative; }
+      .gb-sidebar-category_ruouvang .cssmenu ul ul .item {
+        margin-bottom: 10px; }
+        .gb-sidebar-category_ruouvang .cssmenu ul ul .item h3 a {
+          display: block;
+          font-weight: 600;
+          margin-bottom: 10px; }
+      .gb-sidebar-category_ruouvang .cssmenu ul ul ul {
+        overflow: initial; }
+      .gb-sidebar-category_ruouvang .cssmenu ul ul li {
+        border-bottom: none; }
+  .gb-sidebar-category_ruouvang .cssmenu:after,
+  .gb-sidebar-category_ruouvang .cssmenu > ul:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0; }
+  .gb-sidebar-category_ruouvang .cssmenu #menu-button {
+    display: none; }
+  .gb-sidebar-category_ruouvang .cssmenu {
+    width: auto;
+    line-height: 1; }
+    @media screen and (max-width: 991px) {
+      .gb-sidebar-category_ruouvang .cssmenu {
+        display: none; } }
+  .gb-sidebar-category_ruouvang .cssmenu.align-center > ul {
+    font-size: 0;
+    text-align: center; }
+  .gb-sidebar-category_ruouvang .cssmenu.align-center > ul > li {
+    display: inline-block;
+    float: none; }
+  .gb-sidebar-category_ruouvang .cssmenu.align-center ul ul {
+    text-align: left; }
+  .gb-sidebar-category_ruouvang .cssmenu.align-right > ul > li {
+    float: right; }
+  .gb-sidebar-category_ruouvang .cssmenu.align-right ul ul {
+    text-align: right; }
+  .gb-sidebar-category_ruouvang .cssmenu > ul > li > a {
+    font-size: 13px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+    -webkit-transition: color .2s ease;
+    -o-transition: color .2s ease;
+    transition: color .2s ease; }
+    @media screen and (min-width: 992px) and (max-width: 1199px) {
+      .gb-sidebar-category_ruouvang .cssmenu > ul > li > a {
+        font-size: 11px; } }
+  .gb-sidebar-category_ruouvang .cssmenu > ul > li:hover > a,
+  .gb-sidebar-category_ruouvang .cssmenu > ul > li.active > a {
+    color: #0091cf; }
+  .gb-sidebar-category_ruouvang .cssmenu > ul > li.has-sub > a {
+    padding-right: 25px; }
+    .gb-sidebar-category_ruouvang .cssmenu > ul > li.has-sub > a:hover:before {
+      content: '';
+      display: block; }
+  .gb-sidebar-category_ruouvang .cssmenu > ul > li.has-sub > a::after {
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    content: "\f105";
+    font-family: FontAwesome; }
+  .gb-sidebar-category_ruouvang .cssmenu > ul > li.has-sub:hover > a::after {
+    border-color: #3f97da; }
+  .gb-sidebar-category_ruouvang .cssmenu ul ul {
+    position: absolute;
+    left: -9999px;
+    z-index: 2;
+    background: #ffffff;
+    border: 1px solid #dcdcdc;
+    margin-right: 100%;
+    top: -1; }
+  .gb-sidebar-category_ruouvang .cssmenu li:hover > ul {
+    left: 100%;
+    position: absolute;
+    top: -1px; }
+    .gb-sidebar-category_ruouvang .cssmenu li:hover > ul li ul {
+      position: relative;
+      left: inherit;
+      margin-left: inherit;
+      width: auto;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      border: none;
+      padding: 0 0 0 20px; }
+  .gb-sidebar-category_ruouvang .cssmenu.align-right li:hover > ul {
+    right: 0; }
+  .gb-sidebar-category_ruouvang .cssmenu ul ul ul {
+    margin-left: 100%;
+    top: 0;
+    background: #ffffff;
+    -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5); }
+  .gb-sidebar-category_ruouvang .cssmenu ul ul ul li a {
+    color: #666666; }
+  .gb-sidebar-category_ruouvang .cssmenu.align-right ul ul ul {
+    margin-left: 0;
+    margin-right: 100%; }
+  .gb-sidebar-category_ruouvang .cssmenu ul ul li {
+    -webkit-transition: height .2s ease;
+    -o-transition: height .2s ease;
+    transition: height .2s ease; }
+  .gb-sidebar-category_ruouvang .cssmenu ul ul li {
+    padding: 0 10px; }
+    .gb-sidebar-category_ruouvang .cssmenu ul ul li a {
+      display: block;
+      font-size: 14px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      letter-spacing: normal;
+      text-align: left;
+      color: #666666;
+      min-width: 240px;
+      background: transparent;
+      text-decoration: none;
+      line-height: 30px;
+      -webkit-transition: color .2s ease;
+      -o-transition: color .2s ease;
+      transition: color .2s ease; }
+      .gb-sidebar-category_ruouvang .cssmenu ul ul li a i {
+        padding-right: 10px; }
+  .gb-sidebar-category_ruouvang .cssmenu ul ul li:first-child a {
+    border-top: none; }
+  .gb-sidebar-category_ruouvang .cssmenu ul ul li:hover > a,
+  .gb-sidebar-category_ruouvang .cssmenu ul ul li a:hover {
+    color: #0091cf;
+    background: #fff; }
+  .gb-sidebar-category_ruouvang .cssmenu ul ul li.has-sub > a::after {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    content: "\f105";
+    font-family: FontAwesome; }
+  .gb-sidebar-category_ruouvang .cssmenu.align-right ul ul li.has-sub > a::after {
+    right: auto;
+    left: 10px;
+    border-bottom: 0;
+    border-right: 0;
+    border-top: 1px solid #dddddd;
+    border-left: 1px solid #dddddd; }
+  .gb-sidebar-category_ruouvang .cssmenu ul ul li.has-sub:hover > a::after {
+    border-color: #fff; }
+
+/*SLIDESHOW*/
+.gb-slideshow_ruouvang {
+	margin: 15px 0;
+  position: relative; }
+  .gb-slideshow_ruouvang .owl-nav [class*=owl-] {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background: #0091cf !important;
+    border: 3px solid #0091cf;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s; }
+    .gb-slideshow_ruouvang .owl-nav [class*=owl-]:hover {
+      background: transparent !important;
+      border-color: #0091cf; }
+  .gb-slideshow_ruouvang .owl-nav {
+    margin-top: 0 !important; }
+    @media screen and (max-width: 991px) and (min-width: 768px) {
+      .gb-slideshow_ruouvang .owl-nav {
+        top: -78px; } }
+    .gb-slideshow_ruouvang .owl-nav .owl-prev {
+      position: absolute;
+      top: 45%;
+      left: 20px;
+      display: -webkit-box !important;
+      display: -ms-flexbox !important;
+      display: flex !important; }
+      .gb-slideshow_ruouvang .owl-nav .owl-prev:before {
+        content: '\f104';
+        font-family: FontAwesome;
+        color: #fff;
+        font-size: 20px; }
+    .gb-slideshow_ruouvang .owl-nav .owl-next {
+      position: absolute;
+      top: 45%;
+      right: 20px;
+      display: -webkit-box !important;
+      display: -ms-flexbox !important;
+      display: flex !important; }
+      .gb-slideshow_ruouvang .owl-nav .owl-next:before {
+        content: '\f105';
+        font-family: FontAwesome;
+        color: #fff;
+        font-size: 20px; }
+  .gb-slideshow_ruouvang .owl-theme .owl-dots {
+    position: absolute;
+    bottom: 20px;
+    width: 100%; }
+  .gb-slideshow_ruouvang .slide-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); }
+    @media screen and (max-width: 600px) {
+      .gb-slideshow_ruouvang .slide-content {
+        display: none; } }
+    .gb-slideshow_ruouvang .slide-content h4 {
+      display: block;
+      font-size: 30px;
+      line-height: 54px;
+      color: #0091cf;
+      font-weight: 900;
+      letter-spacing: 2px;
+      margin-bottom: 20px;
+      text-transform: uppercase; }
+      @media screen and (max-width: 767px) {
+        .gb-slideshow_ruouvang .slide-content h4 {
+          font-size: 18px;
+          line-height: 1;
+          margin-bottom: 10px; } }
+    .gb-slideshow_ruouvang .slide-content p {
+      font-size: 16px;
+      color: #fff;
+      line-height: 24px; }
+      @media screen and (max-width: 767px) {
+        .gb-slideshow_ruouvang .slide-content p {
+          font-size: 13px;
+          line-height: 18px; } }
+    .gb-slideshow_ruouvang .slide-content a {
+      display: inline-block;
+      padding: 10px 25px;
+      background: #0091cf;
+      color: #fff;
+      border: 2px solid #0091cf;
+      font-size: 16px;
+      font-weight: 600;
+      text-transform: uppercase;
+      margin-top: 30px;
+      -webkit-transition: all 0.5s;
+      -o-transition: all 0.5s;
+      transition: all 0.5s; }
+      @media screen and (max-width: 767px) {
+        .gb-slideshow_ruouvang .slide-content a {
+          font-size: 14px;
+          padding: 7px 25px;
+          margin-top: 10px; } }
+      .gb-slideshow_ruouvang .slide-content a:hover {
+        color: #0091cf;
+        background: transparent; }
+
+/*social*/
+.gb-top-header_ruouvang-right-social ul li {
+  display: inline-block; }
+  .gb-top-header_ruouvang-right-social ul li a {
+    display: block;
+    color: #499cd6;
+    font-weight: 700;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 15px 10px;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s; }
+    .gb-top-header_ruouvang-right-social ul li a:hover {
+      color: #f79321; }
+
+.footer-about-ruouvang-social ul li {
+  display: inline-block; }
+  .footer-about-ruouvang-social ul li a {
+    display: block;
+    color: #7a7a7a;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 8px;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s; }
+    .footer-about-ruouvang-social ul li a:hover {
+      color: #0091cf; }
+
+/*NEWS*/
+.gb-page-blog_ruouvang {
+  padding: 50px 0; }
+  .gb-page-blog_ruouvang .gb-news-blog_ruouvang-item {
+    margin-bottom: 30px; }
+    .gb-page-blog_ruouvang .gb-news-blog_ruouvang-item .gb-news-blog_ruouvang-item-img {
+      position: relative;
+      z-index: 5;
+      overflow: hidden;
+      height: 257px; }
+      @media screen and (max-width: 767px) {
+        .gb-page-blog_ruouvang .gb-news-blog_ruouvang-item .gb-news-blog_ruouvang-item-img {
+          height: auto; } }
+      .gb-page-blog_ruouvang .gb-news-blog_ruouvang-item .gb-news-blog_ruouvang-item-img img {
+        width: 100%;
+        -webkit-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s; }
+      .gb-page-blog_ruouvang .gb-news-blog_ruouvang-item .gb-news-blog_ruouvang-item-img:hover img {
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+        -webkit-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s; }
+      .gb-page-blog_ruouvang .gb-news-blog_ruouvang-item .gb-news-blog_ruouvang-item-img .caption-large {
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+        background-color: #ffffff;
+        -webkit-box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.25);
+        box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.25);
+        min-width: 115px;
+        height: 40px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        font-size: 14px;
+        font-weight: bold;
+        color: #777777; }
+    .gb-page-blog_ruouvang .gb-news-blog_ruouvang-item .gb-news-blog_ruouvang-item-text .gb-news-blog_ruouvang-item-title {
+      margin: 10px 0; }
+      .gb-page-blog_ruouvang .gb-news-blog_ruouvang-item .gb-news-blog_ruouvang-item-text .gb-news-blog_ruouvang-item-title h3 a {
+        display: block;
+        font-size: 15px;
+        text-align: left;
+        color: #222222; }
+        .gb-page-blog_ruouvang .gb-news-blog_ruouvang-item .gb-news-blog_ruouvang-item-text .gb-news-blog_ruouvang-item-title h3 a:hover {
+          color: #0091cf;
+          text-decoration: none; }
+    .gb-page-blog_ruouvang .gb-news-blog_ruouvang-item .gb-news-blog_ruouvang-item-text .gb-news-blog_ruouvang-item-text-des p {
+      font-size: 14px;
+      line-height: 22px;
+      text-align: left;
+      color: #7b7b7b; }
+    .gb-page-blog_ruouvang .gb-news-blog_ruouvang-item .gb-news-blog_ruouvang-item-button {
+      margin-top: 30px; }
+      .gb-page-blog_ruouvang .gb-news-blog_ruouvang-item .gb-news-blog_ruouvang-item-button .btn {
+        border-radius: 0; }
+      .gb-page-blog_ruouvang .gb-news-blog_ruouvang-item .gb-news-blog_ruouvang-item-button .gb-btn-readmore {
+        background: #0091cf;
+        color: white;
+        font-size: 14px;
+        padding-left: 30px;
+        padding-right: 30px;
+        -webkit-transition: 0.5s;
+        -moz-transition: 0.5s;
+        -ms-transition: 0.5s;
+        -o-transition: 0.5s;
+        transition: 0.5s; }
+        .gb-page-blog_ruouvang .gb-news-blog_ruouvang-item .gb-news-blog_ruouvang-item-button .gb-btn-readmore:hover {
+          background-color: white;
+          color: #0091cf;
+          border: 1px solid #0091cf; }
+
+.gb-single-blog_ruouvang {
+  padding: 50px 0; }
+
+.gb-single-blog_ruouvang-right .gb-single-blog_ruouvang-right-img img {
+  width: 100%;
+  height: auto; }
+
+.gb-single-blog_ruouvang-right .gb-single-blog_ruouvang-right-title {
+  margin-top: 30px;
+  margin-bottom: 26px; }
+  .gb-single-blog_ruouvang-right .gb-single-blog_ruouvang-right-title h2 {
+    font-size: 30px;
+    line-height: 0.87;
+    text-align: left;
+    color: #222222; }
+    @media screen and (max-width: 767px) {
+      .gb-single-blog_ruouvang-right .gb-single-blog_ruouvang-right-title h2 {
+        font-size: 24px;
+        line-height: 26px; } }
+
+.gb-single-blog_ruouvang-right .gb-single-blog_ruouvang-right-info {
+  border-top: 1px solid #e9e9e9;
+  border-bottom: 1px solid #e9e9e9;
+  margin-bottom: 30px;
+  padding-top: 13px;
+  padding-bottom: 14px; }
+  .gb-single-blog_ruouvang-right .gb-single-blog_ruouvang-right-info ul {
+    margin: 0;
+    padding: 0; }
+    .gb-single-blog_ruouvang-right .gb-single-blog_ruouvang-right-info ul li {
+      list-style-type: none;
+      display: inline-block;
+      margin-right: 30px;
+      font-family: 'Open Sans', serif;
+      font-size: 14px;
+      font-style: italic;
+      line-height: 1.86;
+      text-align: left;
+      color: #7b7b7b; }
+      @media screen and (max-width: 767px) {
+        .gb-single-blog_ruouvang-right .gb-single-blog_ruouvang-right-info ul li {
+          margin-right: 24px; } }
+      .gb-single-blog_ruouvang-right .gb-single-blog_ruouvang-right-info ul li .fa {
+        font-family: FontAwesome;
+        font-size: 16px;
+        font-style: normal;
+        line-height: 1.63;
+        color: #0091cf;
+        margin-right: 10px; }
+      .gb-single-blog_ruouvang-right .gb-single-blog_ruouvang-right-info ul li a {
+        color: #7b7b7b; }
+        .gb-single-blog_ruouvang-right .gb-single-blog_ruouvang-right-info ul li a:hover {
+          text-decoration: none;
+          color: #0091cf; }
+
+.gb-single-blog_ruouvang-right .gb-single-blog_ruouvang-right-text p {
+  font-size: 14px;
+  line-height: 1.86;
+  text-align: left;
+  color: #7b7b7b; }
+  .gb-single-blog_ruouvang-right .gb-single-blog_ruouvang-right-text p span {
+    color: #0091cf;
+    margin-right: 10px; }
+
+.gb-single-blog_ruouvang-right .gb-single-blog_ruouvang-right-text .gb-single-blog_ruouvang-quote {
+  margin: 20px 0; }
+  .gb-single-blog_ruouvang-right .gb-single-blog_ruouvang-right-text .gb-single-blog_ruouvang-quote blockquote {
+    border-left: none; }
+    .gb-single-blog_ruouvang-right .gb-single-blog_ruouvang-right-text .gb-single-blog_ruouvang-quote blockquote.quote-card {
+      position: relative;
+      padding-left: 71px;
+      border-top: 1px solid #0091cf;
+      background: #f9f9f9; }
+      .gb-single-blog_ruouvang-right .gb-single-blog_ruouvang-right-text .gb-single-blog_ruouvang-quote blockquote.quote-card:before {
+        content: "“";
+        position: absolute;
+        top: 0;
+        left: 15px;
+        font-size: 120px;
+        color: #0091cf;
+        font-weight: normal; }
+    .gb-single-blog_ruouvang-right .gb-single-blog_ruouvang-right-text .gb-single-blog_ruouvang-quote blockquote h4 {
+      font-size: 16px;
+      font-style: italic;
+      line-height: 1.88;
+      text-align: left;
+      color: #222222; }
+    .gb-single-blog_ruouvang-right .gb-single-blog_ruouvang-right-text .gb-single-blog_ruouvang-quote blockquote h3 {
+      font-size: 16px;
+      font-weight: bold;
+      line-height: 1.63;
+      text-align: left;
+      color: #222222; }
+
+.gb-single-blog_ruouvang-right .gb-single-blog_ruouvang-share {
+  border-top: 1px solid #e9e9e9;
+  padding-top: 10px;
+  margin-top: 37px;
+  margin-bottom: 76px; }
+  .gb-single-blog_ruouvang-right .gb-single-blog_ruouvang-share .gb-single-blog_ruouvang-share-left ul {
+    margin: 0;
+    padding: 0; }
+    .gb-single-blog_ruouvang-right .gb-single-blog_ruouvang-share .gb-single-blog_ruouvang-share-left ul li {
+      list-style-type: none;
+      display: inline-block;
+      border: 1px solid #e9e9e9;
+      padding: 5px 15px; }
+      .gb-single-blog_ruouvang-right .gb-single-blog_ruouvang-share .gb-single-blog_ruouvang-share-left ul li a {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 1.86;
+        text-align: center;
+        color: #aeaeae;
+        text-decoration: none; }
+        .gb-single-blog_ruouvang-right .gb-single-blog_ruouvang-share .gb-single-blog_ruouvang-share-left ul li a:hover {
+          color: #0091cf; }
+  .gb-single-blog_ruouvang-right .gb-single-blog_ruouvang-share .gb-single-blog_ruouvang-share-right {
+    position: absolute;
+    right: -36px; }
+    @media screen and (max-width: 767px) {
+      .gb-single-blog_ruouvang-right .gb-single-blog_ruouvang-share .gb-single-blog_ruouvang-share-right {
+        width: 100%;
+        right: 0;
+        margin-top: 15px; } }
+    .gb-single-blog_ruouvang-right .gb-single-blog_ruouvang-share .gb-single-blog_ruouvang-share-right ul {
+      margin: 0;
+      padding: 0; }
+      .gb-single-blog_ruouvang-right .gb-single-blog_ruouvang-share .gb-single-blog_ruouvang-share-right ul li {
+        list-style-type: none;
+        display: inline-block;
+        position: relative;
+        width: 36px;
+        height: 36px;
+        border-radius: 3px;
+        background-color: #f4f4f4;
+        -webkit-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s; }
+        .gb-single-blog_ruouvang-right .gb-single-blog_ruouvang-share .gb-single-blog_ruouvang-share-right ul li:first-child {
+          border: none;
+          width: 20%;
+          background: none; }
+        .gb-single-blog_ruouvang-right .gb-single-blog_ruouvang-share .gb-single-blog_ruouvang-share-right ul li a {
+          text-decoration: none; }
+          .gb-single-blog_ruouvang-right .gb-single-blog_ruouvang-share .gb-single-blog_ruouvang-share-right ul li a .fa {
+            font-family: FontAwesome;
+            font-size: 14px;
+            line-height: 1.86;
+            text-align: center;
+            color: #aeaeae;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%); }
+        .gb-single-blog_ruouvang-right .gb-single-blog_ruouvang-share .gb-single-blog_ruouvang-share-right ul li span {
+          font-size: 14px;
+          font-weight: bold;
+          line-height: 2.17;
+          text-align: right;
+          color: #7b7b7b;
+          position: absolute; }
+        .gb-single-blog_ruouvang-right .gb-single-blog_ruouvang-share .gb-single-blog_ruouvang-share-right ul li:nth-child(2):hover {
+          background: #3b5998;
+          -webkit-transition: all 0.5s;
+          -o-transition: all 0.5s;
+          transition: all 0.5s; }
+          .gb-single-blog_ruouvang-right .gb-single-blog_ruouvang-share .gb-single-blog_ruouvang-share-right ul li:nth-child(2):hover a .fa {
+            color: white !important; }
+        .gb-single-blog_ruouvang-right .gb-single-blog_ruouvang-share .gb-single-blog_ruouvang-share-right ul li:nth-child(3):hover {
+          background: #2caae1;
+          -webkit-transition: all 0.5s;
+          -o-transition: all 0.5s;
+          transition: all 0.5s; }
+          .gb-single-blog_ruouvang-right .gb-single-blog_ruouvang-share .gb-single-blog_ruouvang-share-right ul li:nth-child(3):hover a .fa {
+            color: white !important; }
+        .gb-single-blog_ruouvang-right .gb-single-blog_ruouvang-share .gb-single-blog_ruouvang-share-right ul li:nth-child(4):hover {
+          background: #0091cf;
+          -webkit-transition: all 0.5s;
+          -o-transition: all 0.5s;
+          transition: all 0.5s; }
+          .gb-single-blog_ruouvang-right .gb-single-blog_ruouvang-share .gb-single-blog_ruouvang-share-right ul li:nth-child(4):hover a .fa {
+            color: white !important; }
+        .gb-single-blog_ruouvang-right .gb-single-blog_ruouvang-share .gb-single-blog_ruouvang-share-right ul li:nth-child(5):hover {
+          background: #007bb6;
+          -webkit-transition: all 0.5s;
+          -o-transition: all 0.5s;
+          transition: all 0.5s; }
+          .gb-single-blog_ruouvang-right .gb-single-blog_ruouvang-share .gb-single-blog_ruouvang-share-right ul li:nth-child(5):hover a .fa {
+            color: white !important; }
+        .gb-single-blog_ruouvang-right .gb-single-blog_ruouvang-share .gb-single-blog_ruouvang-share-right ul li:nth-child(6):hover {
+          background: #0091cf;
+          -webkit-transition: all 0.5s;
+          -o-transition: all 0.5s;
+          transition: all 0.5s; }
+          .gb-single-blog_ruouvang-right .gb-single-blog_ruouvang-share .gb-single-blog_ruouvang-share-right ul li:nth-child(6):hover a .fa {
+            color: white !important; }
+
+.gb-tintuc-lienquan .gb-tintuc-lienquan-title {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: left;
+  color: #0091cf;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  position: relative;
+  padding-bottom: 10px; }
+
+.gb-tintuc-lienquan .gb-tintuc-item .item-img {
+  height: 130px;
+  overflow: hidden; }
+
+.gb-tintuc-lienquan .gb-tintuc-item .item-text {
+  padding-top: 10px; }
+  .gb-tintuc-lienquan .gb-tintuc-item .item-text h2 a {
+    display: block;
+    font-size: 18px;
+    color: #333;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    line-height: 22px;
+    overflow: hidden; }
+  .gb-tintuc-lienquan .gb-tintuc-item .item-text p {
+    font-size: 14px;
+    line-height: 22px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden; }
+
+.gb-tintuc-lienquan .gb-tintuc-item time {
+  display: block;
+  margin: 15px 0; }
+
+.gb-tintuc-lienquan .gb-tintuc-item .btn-doctiep a {
+  display: inline-block;
+  min-width: 120px;
+  border: 1px solid #0091cf;
+  text-align: center;
+  padding: 10px 0;
+  color: #fff;
+  font-size: 14px;
+  background: #0091cf;
+  margin-top: 10px;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s; }
+  .gb-tintuc-lienquan .gb-tintuc-item .btn-doctiep a:hover {
+    color: #0091cf;
+    background: transparent; }
+
+/*introduce*/
+.gb-introvechungtoi_rem {
+  padding: 50px 0;
+  background: #f1f1f1; }
+  .gb-introvechungtoi_rem .gb-introvechungtoi_ruouvang-left h2 {
+    font-size: 24px;
+    text-transform: uppercase; }
+  .gb-introvechungtoi_rem .gb-introvechungtoi_ruouvang-left .gb-divider {
+    border-color: #f79321;
+    margin: 15px 0; }
+  .gb-introvechungtoi_rem .gb-introvechungtoi_ruouvang-left p {
+    font-size: 16px;
+    line-height: 1.5; }
+  .gb-introvechungtoi_rem .gb-introvechungtoi_ruouvang-left .gb-introvechungtoi_ruouvang-doctiep {
+    background: #f79321;
+    display: inline-block;
+    min-width: 100px;
+    padding: 10px 0;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    border: 1px solid #f79321;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    margin-top: 30px; }
+    .gb-introvechungtoi_rem .gb-introvechungtoi_ruouvang-left .gb-introvechungtoi_ruouvang-doctiep:hover {
+      color: #f79321;
+      background: transparent; }
+  .gb-introvechungtoi_rem .gb-introvechungtoi_ruouvang-right img {
+    width: 100%;
+    height: auto; }
+
+/*PRODUCT*/
+.gb-img-lien-he img{
+  width: 50%;
+  margin-left: 35px;
+}
+.gb-chitiet-vieclam-title hr {
+  margin-top: 9px;
+}
+.gb-text-lien-he p{
+    font-weight: 500;
+    line-height: 15px;
+    color: #19a05e;
+    font-size: 13px;
+}
+.gb-text-lien-he ul li{
+  float: left;
+  color: #353535;
+  margin-right: 2%;
+  font-size: 11px;
+  font-weight: bold;
+}
+.gb-text-lien-he ul li i{
+  color: #19a05e;
+}
+
+.gb-tieubieu-product_ruouvang {
+  padding: 15px 0; }
+  .gb-tieubieu-product_ruouvang .gb-tieubieu-product_ruouvang-title {
+    margin-bottom: 30px; }
+    .gb-tieubieu-product_ruouvang .gb-tieubieu-product_ruouvang-title h3 {
+      font-size: 19px;
+      text-transform: uppercase; }
+    .gb-tieubieu-product_ruouvang .gb-tieubieu-product_ruouvang-title p {
+      font-size: 16px; }
+  .gb-tieubieu-product_ruouvang .gb-product_ruouvang-item {
+    position: relative;
+    -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    padding: 10px 0; }
+    .gb-tieubieu-product_ruouvang .gb-product_ruouvang-item:hover {
+      -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.05);
+      box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.05); }
+      .gb-tieubieu-product_ruouvang .gb-product_ruouvang-item:hover .gb-product_ruouvang-item-img .btn-addtocart_ruouvang {
+        opacity: 1;
+        top: 50%; }
+    .gb-tieubieu-product_ruouvang .gb-product_ruouvang-item-img {
+      width: 45px;
+      height: 45px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      overflow: hidden;
+      float: left;
+      margin-right: 15px; }
+      .gb-product_ruouvang-item .gb-product_ruouvang-item-text{
+        padding-left: 50px;
+      }
+      .gb-tieubieu-product_ruouvang .gb-product_ruouvang-item-img a {
+        display: block; }
+        .gb-tieubieu-product_ruouvang .gb-product_ruouvang-item-img a img {
+          width: 100%;
+          height: auto;
+          border-radius: 20%;
+        }
+          @media screen and (max-width: 767px) {
+            .gb-tieubieu-product_ruouvang .gb-product_ruouvang-item-img a img {
+              height: auto; } }
+
+      .gb-tieubieu-product_ruouvang .gb-product_ruouvang-item-img .btn-addtocart_ruouvang {
+        opacity: 0;
+        min-width: 150px;
+        display: inline-block;
+        position: absolute;
+        text-align: center;
+        top: 10%;
+        left: 50%;
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        -ms-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+        padding: 10px 0;
+        -webkit-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s; }
+    .gb-tieubieu-product_ruouvang .gb-product_ruouvang-item-text h2 a {
+      display: block;
+      font-size: 14px;
+      line-height: 21px;
+      color: #0091cf;
+      font-weight: 500;
+      /*margin-bottom: 10px;*/
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 1;
+      overflow: hidden;
+      text-align: left; }
+    .gb-tieubieu-product_ruouvang .gb-product_ruouvang-item-text p {
+      font-size: 13px;
+      color: #7a7a7a;
+      line-height: 24px;
+      display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden; }
+    .gb-tieubieu-product_ruouvang .gb-product_ruouvang-item-text .product-xuatxu-dungtich-percent {
+      margin-bottom: 10px; }
+      .gb-tieubieu-product_ruouvang .gb-product_ruouvang-item-text .product-xuatxu-dungtich-percent li {
+        display: inline-block;
+        width: 32%;
+        font-size: 14px;
+        color: #7a7a7a;
+        line-height: 22px;
+        text-align: center;
+        text-align: center; }
+    .gb-tieubieu-product_ruouvang .gb-product_ruouvang-item .gb-product_ruouvang-item-yeumua a {
+      width: 50%;
+      float: left; }
+  .gb-tieubieu-product_ruouvang .owl-nav [class*=owl-] {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 53px;
+    height: 92px;
+    background: transparent !important;
+    border: none;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s; }
+    .gb-tieubieu-product_ruouvang .owl-nav [class*=owl-]:hover {
+      background: transparent !important;
+      border-color: #0091cf; }
+  .gb-tieubieu-product_ruouvang .owl-nav {
+    margin-top: 0 !important; }
+    @media screen and (max-width: 991px) and (min-width: 768px) {
+      .gb-tieubieu-product_ruouvang .owl-nav {
+        top: -78px; } }
+    .gb-tieubieu-product_ruouvang .owl-nav .owl-prev {
+      position: absolute;
+      top: 45%;
+      left: -60px;
+      display: -webkit-box !important;
+      display: -ms-flexbox !important;
+      display: flex !important; }
+      .gb-tieubieu-product_ruouvang .owl-nav .owl-prev:before {
+        content: '';
+        background: url("../images/icons/md-left.svg");
+        width: 53px;
+        height: 92px;
+        font-family: FontAwesome;
+        color: #fff;
+        font-size: 20px; }
+    .gb-tieubieu-product_ruouvang .owl-nav .owl-next {
+      position: absolute;
+      top: 45%;
+      right: -60px;
+      display: -webkit-box !important;
+      display: -ms-flexbox !important;
+      display: flex !important; }
+      .gb-tieubieu-product_ruouvang .owl-nav .owl-next:before {
+        content: '';
+        background: url("../images/icons/md-right.svg");
+        width: 53px;
+        height: 92px;
+        font-family: FontAwesome;
+        color: #fff;
+        font-size: 20px; }
+
+.prices_ruouvang {
+  display: block;
+  font-size: 14px;
+  line-height: 21px;
+  color: #000 !important;
+  font-weight: 300;
+  text-align: left; }
+  .prices_ruouvang .prices_ruouvang-news {
+    display: block; }
+  .prices_ruouvang .prices_ruouvang-old {
+    display: block; }
+.gb-page-sanpham_ruouvang-title .fa{
+  color: #19a05e;
+  font-size: 17px;
+}
+.gb-page-sanpham_ruouvang {
+  padding: 10px 0; }
+  .gb-page-sanpham_ruouvang-title {
+    font-size: 17px;
+    padding: 5px;
+    margin-bottom: 30px;
+    /*text-align: center;
+    background-color: #19a05e;*/
+    text-transform: uppercase;
+    color: #000;
+  }
+  .gb-product_ruouvang-item {
+    position: relative;
+    -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    padding: 5px 15px; 
+    min-height: 80px;
+  }
+   .gb-product_ruouvang-item:hover {
+      -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.05);
+      box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.05); }
+    .gb-product_ruouvang-item:hover .gb-product_ruouvang-item-img .btn-addtocart_ruouvang {
+        opacity: 1;
+        top: 50%; }
+    .gb-product_ruouvang-item-img {
+      width: 50px;
+      height: 50px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      overflow: hidden;
+      float: left;
+      margin-right: 15px; }
+      .gb-product_ruouvang-item-img a {
+        display: block; }
+      .gb-product_ruouvang-item-img a img {
+          width: 100%;
+          height: auto;
+          border-radius: 20%;
+        }
+          @media screen and (max-width: 767px) {
+            .vh-cap-nhat-vl{
+              display: none;
+            }
+            .gb-page-sanpham_ruouvang-vieclammoi-ngangnghe ul{
+                  height: 200px !important;
+            }
+            .gb-page-sanpham_ruouvang-vieclammoi-scroll{
+                  height: 260px !important;
+            }
+            .gb-product_ruouvang-item-img a img {
+              height: auto; } }
+      .gb-product_ruouvang-item-img .btn-addtocart_ruouvang {
+        opacity: 0;
+        min-width: 150px;
+        display: inline-block;
+        position: absolute;
+        text-align: center;
+        top: 10%;
+        left: 50%;
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        -ms-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+        padding: 10px 0;
+        -webkit-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s; }
+        .gb-product_ruouvang-item-text{
+          padding-left: 55px;
+        }
+    .gb-product_ruouvang-item-text h2 a {
+      display: block;
+      font-size: 14px;
+      line-height: 21px;
+      color: #0091cf;
+      font-weight: 500;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 1;
+      overflow: hidden;
+      height: 21px;
+      text-align: left; }
+    .gb-product_ruouvang-item-text p {
+      font-size: 12px;
+      color: #7a7a7a;
+      line-height: 24px;
+          display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+       }
+    .gb-product_ruouvang-item-text .product-xuatxu-dungtich-percent {
+      margin-bottom: 10px; }
+    .gb-product_ruouvang-item-text .product-xuatxu-dungtich-percent li {
+        display: inline-block;
+        width: 32%;
+        font-size: 14px;
+        color: #7a7a7a;
+        line-height: 22px;
+        text-align: center;
+        text-align: center; }
+    .gb-product_ruouvang-item .gb-product_ruouvang-item-yeumua a {
+      width: 50%;
+      float: left; }
+    .gb-product_ruouvang-item .gb-product_ruouvang-item-address {
+      font-size: 14px;
+      color: #7a7a7a;
+      line-height: 24px; }
+  .kinhnghiem-vieclam {
+    font-size: 12px;
+    color: #7a7a7a;
+    line-height: 24px; }
+    .kinhnghiem-vieclam span {
+      color: #fc205c; }
+.gb-chitiet-vieclam-left-contact{
+  background-color: #02a18b;
+      padding-left: 1%;
+    padding-top: 1%;
+}
+.gb-chitiet-vieclam {
+  padding: 10px 0px 50px 0px;
+}
+  .gb-chitiet-vieclam .gb-chitiet-vieclam-title .gb-chitiet-vieclam-img img {
+    /*width: 100%;
+    height: auto; */
+}
+.gb-chitiet-vieclam-left{
+
+}
+.gb-chitiet-vieclam-noidung h4 a{
+      color: #ffce45;
+}
+  .gb-chitiet-vieclam .gb-chitiet-vieclam-title .gb-chitiet-vieclam-noidung h1 {
+    font-weight: 500;
+    font-size: 20px;
+    text-align: left;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 5px;
+  }
+  .gb-chitiet-vieclam .gb-chitiet-vieclam-title .gb-chitiet-vieclam-noidung h4 {
+    font-size: 16px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin: 8.4px 0px;
+    color: #ffce45;
+  }
+  .gb-chitiet-vieclam .gb-chitiet-vieclam-title .gb-chitiet-vieclam-noidung h1 a{
+    color: #fff;
+    text-transform: uppercase;
+  }  
+  .gb-chitiet-vieclam .gb-chitiet-vieclam-title .gb-chitiet-vieclam-noidung ul li {
+    font-size: 14px;
+    color: #fff;
+    line-height: 24px; }
+    .gb-chitiet-vieclam .gb-chitiet-vieclam-title .gb-chitiet-vieclam-noidung ul li strong {
+          font-weight: 400;
+     }
+    .gb-chitiet-vieclam .gb-chitiet-vieclam-title .gb-chitiet-vieclam-noidung ul li .prices_ruouvang {
+      display: inline-block; }
+      .gb-chitiet-vieclam .gb-chitiet-vieclam-title .gb-chitiet-vieclam-noidung ul li .prices_ruouvang .prices_ruouvang-old {
+        display: inline-block;
+        color: #ffce45;
+      }
+  .gb-chitiet-vieclam .gb-chitiet-vieclam-title .gb-chitiet-vieclam-tag ul li {
+    font-size: 14px;
+    color: #000;
+    line-height: 24px; }
+  .heading-title-vieclam .fa{
+    color: #02a18b;
+    font-size: 17px;
+  }
+  .gb-chitiet-vieclam .gb-chitiet-vieclam-left .heading-title-vieclam {
+    position: relative;
+    font-weight: 600;
+    border-bottom: 2px solid #f7f7f7;
+    font-size: 15px;
+    padding-bottom: 9px;
+    margin-bottom: 10px;
+    text-transform: uppercase; }
+    .gb-chitiet-vieclam .gb-chitiet-vieclam-left .heading-title-vieclam:before {
+      background: #0091ce none repeat scroll 0 0;
+      border-radius: 12px;
+      content: "";
+      height: 2px;
+      left: 0;
+      position: absolute;
+      top: 31px;
+      width: 100px; }
+  .gb-chitiet-vieclam .gb-chitiet-vieclam-left ul li {
+    font-size: 13px;
+    color: #000;
+    line-height: 25px;
+    font-weight: 300; }
+    .gb-chitiet-vieclam .gb-chitiet-vieclam-left ul li strong {
+      font-weight: bold; }
+    .gb-chitiet-vieclam .gb-chitiet-vieclam-left ul li .prices_ruouvang {
+      display: inline-block; }
+      .gb-chitiet-vieclam .gb-chitiet-vieclam-left ul li .prices_ruouvang .prices_ruouvang-old {
+        display: inline-block; }
+  .gb-chitiet-vieclam .gb-chitiet-vieclam-left p {
+    line-height: 24px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #353535;
+    padding-left: 2%;
+  }
+  .gb-chitiet-vieclam .gb-chitiet-vieclam-left .gb-chitiet-vieclam-left-mota {
+    margin-bottom: 20px; }
+  .gb-chitiet-vieclam .gb-chitiet-vieclam-left .gb-chitiet-vieclam-left-info {
+    margin-bottom: 30px; }
+
+.gb-home-product-relate {
+  margin: 30px 0; }
+  .gb-home-product-relate .gb-home-product-relate-title h4 {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left;
+    color: #333;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #0091cf; }
+  .gb-home-product-relate .gb-product_ruouvang-item {
+    position: relative;
+    -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    padding: 10px 0; }
+    .gb-home-product-relate .gb-product_ruouvang-item:hover {
+      -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.05);
+      box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.05); }
+      .gb-home-product-relate .gb-product_ruouvang-item:hover .gb-product_ruouvang-item-img .btn-addtocart_ruouvang {
+        opacity: 1;
+        top: 50%; }
+    .gb-home-product-relate .gb-product_ruouvang-item-img {
+      width: 70px;
+      height: 70px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      overflow: hidden;
+      float: left;
+      margin-right: 15px; }
+      .gb-home-product-relate .gb-product_ruouvang-item-img a {
+        display: block; }
+        .gb-home-product-relate .gb-product_ruouvang-item-img a img {
+          width: 100%;
+          height: auto; }
+          @media screen and (max-width: 767px) {
+            .gb-home-product-relate .gb-product_ruouvang-item-img a img {
+              height: auto; } }
+      .gb-home-product-relate .gb-product_ruouvang-item-img .btn-addtocart_ruouvang {
+        opacity: 0;
+        min-width: 150px;
+        display: inline-block;
+        position: absolute;
+        text-align: center;
+        top: 10%;
+        left: 50%;
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        -ms-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+        padding: 10px 0;
+        -webkit-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s; }
+    .gb-home-product-relate .gb-product_ruouvang-item-text h2 a {
+      display: block;
+      font-size: 14px;
+      line-height: 21px;
+      color: #0091cf;
+      font-weight: 500;
+      margin-bottom: 10px;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 1;
+      overflow: hidden;
+      text-align: left; }
+    .gb-home-product-relate .gb-product_ruouvang-item-text p {
+      font-size: 14px;
+      color: #7a7a7a;
+      line-height: 24px; }
+    .gb-home-product-relate .gb-product_ruouvang-item-text .product-xuatxu-dungtich-percent {
+      margin-bottom: 10px; }
+      .gb-home-product-relate .gb-product_ruouvang-item-text .product-xuatxu-dungtich-percent li {
+        display: inline-block;
+        width: 32%;
+        font-size: 14px;
+        color: #7a7a7a;
+        line-height: 22px;
+        text-align: center;
+        text-align: center; }
+    .gb-home-product-relate .gb-product_ruouvang-item .gb-product_ruouvang-item-yeumua a {
+      width: 50%;
+      float: left; }
+
+.gb-category-hot-vieclam {
+  display: block;
+  width: 100%;
+  margin: auto;
+  list-style: none;
+  padding: 0;
+  overflow: hidden; }
+  .gb-category-hot-vieclam ul li {
+    position: relative;
+    padding: 20px 14px;
+    display: inline-block; }
+    .gb-category-hot-vieclam ul li:after {
+      content: ''; }
+    .gb-category-hot-vieclam ul li a {
+      display: block;
+      color: #555;
+      font-weight: 400;
+      font-size: 14px; }
+
+.gb-danhmuc-chondanhmuc-vieclam {
+  margin: 30px 0; }
+  .gb-danhmuc-chondanhmuc-vieclam .gb-danhmuc-chondanhmuc-vieclam-item {
+    background: #3f51b5;
+    margin-bottom: 15px;
+    border-radius: 100px; }
+    .gb-danhmuc-chondanhmuc-vieclam .gb-danhmuc-chondanhmuc-vieclam-item h2 {
+      font-size: 18px;
+      text-transform: uppercase;
+      color: #fff;
+      line-height: 57px;
+      text-align: center; }
+    .gb-danhmuc-chondanhmuc-vieclam .gb-danhmuc-chondanhmuc-vieclam-item img {
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      margin-left: auto; }
+.gb-tieubieu-product_ruouvang-title h3 img{
+
+}
+.gb-tieubieu-product_ruouvang-title .fa{
+      font-size: 17px;
+    color: #19a05e;
+}
+.gb-danhmuc-sanpham-cotrinhdo-phpthong {
+  padding-bottom: 30px; }
+  .gb-danhmuc-sanpham-cotrinhdo-phpthong .gb-tieubieu-product_ruouvang-title {
+    margin-bottom: 30px; }
+    .gb-danhmuc-sanpham-cotrinhdo-phpthong .gb-tieubieu-product_ruouvang-title h3 {
+      font-size: 20px;
+      text-transform: uppercase;
+      color: #fff;
+      text-align: center;
+      background-color: #6b5751;
+      padding: 10px 0px;
+    }
+    .gb-danhmuc-sanpham-cotrinhdo-phpthong .gb-tieubieu-product_ruouvang-title p {
+      font-size: 16px; }
+  .gb-danhmuc-sanpham-cotrinhdo-phpthong .gb-danhmuc-sanpham-cotrinhdo-phpthong-item {
+    height: 900px;
+    overflow-y: scroll; }
+    .gb-danhmuc-sanpham-cotrinhdo-phpthong .gb-danhmuc-sanpham-cotrinhdo-phpthong-item::-webkit-scrollbar-track {
+      -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+      background-color: #F5F5F5; }
+    .gb-danhmuc-sanpham-cotrinhdo-phpthong .gb-danhmuc-sanpham-cotrinhdo-phpthong-item::-webkit-scrollbar {
+      width: 6px;
+      background-color: #F5F5F5; }
+    .gb-danhmuc-sanpham-cotrinhdo-phpthong .gb-danhmuc-sanpham-cotrinhdo-phpthong-item::-webkit-scrollbar-thumb {
+      background-color: rgba(0, 0, 0, 0.3); }
+  .gb-danhmuc-sanpham-cotrinhdo-phpthong .gb-product_ruouvang-item {
+    position: relative;
+    -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    padding: 10px 0; }
+    .gb-danhmuc-sanpham-cotrinhdo-phpthong .gb-product_ruouvang-item:hover {
+      -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.05);
+      box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.05); }
+      .gb-danhmuc-sanpham-cotrinhdo-phpthong .gb-product_ruouvang-item:hover .gb-product_ruouvang-item-img .btn-addtocart_ruouvang {
+        opacity: 1;
+        top: 50%; }
+    .gb-danhmuc-sanpham-cotrinhdo-phpthong .gb-product_ruouvang-item-img {
+      width: 70px;
+      height: 70px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      overflow: hidden;
+      float: left;
+      border-radius: 20%;
+    }
+      .gb-danhmuc-sanpham-cotrinhdo-phpthong .gb-product_ruouvang-item-img a {
+        display: block; }
+        .gb-danhmuc-sanpham-cotrinhdo-phpthong .gb-product_ruouvang-item-img a img {
+          width: 100%;
+          height: auto; }
+          @media screen and (max-width: 767px) {
+            .gb-danhmuc-sanpham-cotrinhdo-phpthong .gb-product_ruouvang-item-img a img {
+              height: auto; } }
+      .gb-danhmuc-sanpham-cotrinhdo-phpthong .gb-product_ruouvang-item-img .btn-addtocart_ruouvang {
+        opacity: 0;
+        min-width: 150px;
+        display: inline-block;
+        position: absolute;
+        text-align: center;
+        top: 10%;
+        left: 50%;
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        -ms-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+        padding: 10px 0;
+        -webkit-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s; }
+        .gb-danhmuc-sanpham-cotrinhdo-phpthong .gb-product_ruouvang-item-text{
+          padding-left: 80px;
+        }
+    .gb-danhmuc-sanpham-cotrinhdo-phpthong .gb-product_ruouvang-item-text h2 a {
+      display: block;
+      font-size: 14px;
+      line-height: 21px;
+      color: #0091cf;
+      font-weight: 500;
+      /*margin-bottom: 10px;*/
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 1;
+      overflow: hidden;
+      text-align: left; }
+    .gb-danhmuc-sanpham-cotrinhdo-phpthong .gb-product_ruouvang-item-text p {
+      font-size: 14px;
+      color: #7a7a7a;
+      line-height: 24px;
+      display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+       }
+    .gb-danhmuc-sanpham-cotrinhdo-phpthong .gb-product_ruouvang-item-text .product-xuatxu-dungtich-percent {
+      margin-bottom: 10px; }
+      .gb-danhmuc-sanpham-cotrinhdo-phpthong .gb-product_ruouvang-item-text .product-xuatxu-dungtich-percent li {
+        display: inline-block;
+        width: 32%;
+        font-size: 14px;
+        color: #7a7a7a;
+        line-height: 22px;
+        text-align: center;
+        text-align: center; }
+    .gb-danhmuc-sanpham-cotrinhdo-phpthong .gb-product_ruouvang-item .gb-product_ruouvang-item-yeumua a {
+      width: 50%;
+      float: left; }
+  .gb-danhmuc-sanpham-cotrinhdo-phpthong .owl-nav [class*=owl-] {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 53px;
+    height: 92px;
+    background: transparent !important;
+    border: none;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s; }
+    .gb-danhmuc-sanpham-cotrinhdo-phpthong .owl-nav [class*=owl-]:hover {
+      background: transparent !important;
+      border-color: #0091cf; }
+  .gb-danhmuc-sanpham-cotrinhdo-phpthong .owl-nav {
+    margin-top: 0 !important; }
+    @media screen and (max-width: 991px) and (min-width: 768px) {
+      .gb-danhmuc-sanpham-cotrinhdo-phpthong .owl-nav {
+        top: -78px; } }
+    .gb-danhmuc-sanpham-cotrinhdo-phpthong .owl-nav .owl-prev {
+      position: absolute;
+      top: 45%;
+      left: -60px;
+      display: -webkit-box !important;
+      display: -ms-flexbox !important;
+      display: flex !important; }
+      .gb-danhmuc-sanpham-cotrinhdo-phpthong .owl-nav .owl-prev:before {
+        content: '';
+        background: url("../images/icons/md-left.svg");
+        width: 53px;
+        height: 92px;
+        font-family: FontAwesome;
+        color: #fff;
+        font-size: 20px; }
+    .gb-danhmuc-sanpham-cotrinhdo-phpthong .owl-nav .owl-next {
+      position: absolute;
+      top: 45%;
+      right: -60px;
+      display: -webkit-box !important;
+      display: -ms-flexbox !important;
+      display: flex !important; }
+      .gb-danhmuc-sanpham-cotrinhdo-phpthong .owl-nav .owl-next:before {
+        content: '';
+        background: url("../images/icons/md-right.svg");
+        width: 53px;
+        height: 92px;
+        font-family: FontAwesome;
+        color: #fff;
+        font-size: 20px; }
+
+/*CART*/
+.btn-muahang {
+  display: inline-block;
+  color: #fff;
+  font-size: 13px;
+  text-transform: uppercase;
+  background: #0091cf;
+  padding: 10px 15px;
+  text-align: center; }
+
+.gb-chi-tiet-add-to-cart .gb-selectsize label {
+  position: relative;
+  display: block;
+  font-size: 11px;
+  font-weight: bold;
+  line-height: 2.18;
+  text-align: left;
+  color: #666666;
+  text-transform: uppercase; }
+  .gb-chi-tiet-add-to-cart .gb-selectsize label span {
+    position: absolute;
+    right: 0; }
+
+.gb-chi-tiet-add-to-cart .gb-selectsize .form-control {
+  border-radius: 0; }
+
+.gb-chi-tiet-add-to-cart .quantity {
+  float: left;
+  width: 70%; }
+  .gb-chi-tiet-add-to-cart .quantity label {
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 2.18;
+    text-align: left;
+    color: #666666;
+    text-transform: uppercase; }
+  .gb-chi-tiet-add-to-cart .quantity input {
+    width: 100%;
+    height: 36px;
+    border-radius: 0;
+    border: solid 1px #aeaeae; }
+  .gb-chi-tiet-add-to-cart .quantity .form-control {
+    margin-bottom: 0; }
+  .gb-chi-tiet-add-to-cart .quantity .form-group {
+    margin-bottom: 0; }
+.form-group img{
+    border-radius: 15%;
+    border: 3px solid #fff;
+    width: 15%;
+}    
+
+.gb-chi-tiet-add-to-cart .cart {
+  position: relative;
+  padding-top: 20px; }
+
+.gb-chi-tiet-add-to-cart .single_add_to_cart_button {
+  position: absolute;
+  bottom: 0;
+  background: #0091cf;
+  padding: 6px 24px;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  border: 1px solid #0091cf;
+  border-radius: 0;
+  margin-left: 10px;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  right: 0; }
+  .gb-chi-tiet-add-to-cart .single_add_to_cart_button:hover {
+    color: #0091cf;
+    background: transparent; }
+
+.gb-chi-tiet-add-to-cart .product_meta {
+  padding-top: 25px; }
+  .gb-chi-tiet-add-to-cart .product_meta span {
+    font-size: 14px;
+    font-weight: bold;
+    color: #404040;
+    text-transform: uppercase; }
+    .gb-chi-tiet-add-to-cart .product_meta span a {
+      font-size: 14px;
+      font-weight: normal;
+      text-align: left;
+      color: #808080;
+      text-transform: none; }
+      .gb-chi-tiet-add-to-cart .product_meta span a:after {
+        content: ","; }
+      .gb-chi-tiet-add-to-cart .product_meta span a:last-child:after {
+        content: ""; }
+
+.btn-yeuthich {
+  display: inline-block;
+  color: #000;
+  font-size: 13px;
+  text-transform: uppercase;
+  background: #f1f1f1;
+  padding: 10px 15px;
+  text-align: center; }
+
+.cart_ruouvang {
+  background: transparent;
+  border: none;
+  text-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  font-weight: 500;
+  font-size: 14px;
+  color: #333; }
+
+/*FOOTER*/
+.footer-main-content_ruouvang .footer-main-content_ruouvang-top {
+  background: #f1f1f1;
+  padding: 30px 0;
+}
+
+.footer-main-content_ruouvang h2 {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 15px;
+  /*text-align: center;*/
+   }
+
+.footer-main-content_ruouvang .footer-main-content_ruouvang-bottom {
+  padding: 22px 0;
+  background: #9e9e9e; }
+
+.copyright-area_ruouvang p {
+  text-align: center;
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+  padding: 15px 0;
+  color: #fff; }
+
+.widget-title-footer-ruouvang {
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #499cd6;
+      margin-bottom: 10px;
+}
+
+/*footer-about-ruouvang*/
+.footer-lienhe-ruouvang h2 {
+  font-size: 14px;
+  font-weight: bold;
+  color: #000;
+  text-transform: uppercase;
+  margin-bottom: 15px; }
+
+.footer-lienhe-ruouvang ul li {
+  font-size: 14px;
+  color: #fff;
+  line-height: 26px;
+  margin-bottom: 10px; }
+  .footer-lienhe-ruouvang ul li span {
+    font-weight: 700; }
+
+/*footer-recentpost-ruouvang*/
+.footer-link-ruouvang ul li a {
+  display: block;
+  font-size: 14px;
+  color: #499cd6;
+  line-height: 22px;
+}
+.hidden-sm{
+  /*padding-left: 8%;*/
+}
+
+.footer-ruouvang-right {
+  border-left: 1px solid #ccc; }
+  .footer-ruouvang-right .footer-bottom-right span {
+    float: left;
+    margin-left: 15px; }
+  .footer-ruouvang-right .footer-bottom-ruouvang {
+    border-top: 1px solid #ccc;
+    display: flow-root;
+    padding-top: 30px; }
+  .footer-ruouvang-right .footer-top-ruouvang {
+    padding: 0 0  30px 30px; }
+
+/*EMAIL*/
+.gb-footer-newletter_ruouvang .input-group {
+  border-radius: 4px; }
+
+.gb-footer-newletter_ruouvang .form-control {
+  height: 44px;
+  border: 1px solid #dbdbdb;
+  border-radius: 0; }
+
+.gb-footer-newletter_ruouvang p {
+  color: #808080;
+  line-height: 20px;
+  font-size: 14px;
+  text-align: left;
+  margin-bottom: 20px; }
+
+.gb-footer-newletter_ruouvang span .btn-theme {
+  height: 44px;
+  color: #333;
+  border-radius: 0;
+  border: 1px solid #dbdbdb;
+  background: transparent; }
+
+.gb-lienhe {
+  padding: 50px 0; }
+
+.gb-form-lienhe h3 {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: left;
+  color: #333;
+  margin-top: 10px;
+  text-transform: uppercase;
+  margin-bottom: 5px; }
+
+.gb-form-lienhe form label {
+  font-size: 14px;
+  font-weight: 600;
+  text-align: left;
+  color: #333;
+  margin-top: 5px;
+  margin-bottom: 5px; }
+
+.gb-form-lienhe .btn-gui {
+  min-width: 200px;
+  background: #0091cf;
+  border: 2px solid #0091cf;
+  color: #fff;
+  border-radius: 0;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s; }
+  .gb-form-lienhe .btn-gui:hover {
+    background: transparent;
+    color: #0091cf; }
+
+/*sidebar*/
+.widget-sidebar {
+  margin-bottom: 30px; }
+
+.gb-timkiem-sidebar-ruouvang .widget-title-sidebar-ruouvang {
+  font-size: 14px;
+  font-weight: 600;
+  text-align: left;
+  color: #333;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  position: relative;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #0091cf; }
+
+.gb-timkiem-sidebar-ruouvang .vk-newlist-banner-test-search button {
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s; }
+
+.gb-timkiem-sidebar-ruouvang .vk-newlist-banner-test-search button:hover {
+  background: #0091cf;
+  color: #fff; }
+
+.gb-timkiem-sidebar-ruouvang form {
+  border-radius: 0;
+  overflow: hidden; }
+
+.gb-timkiem-sidebar-ruouvang .vk-newlist-banner-test-search {
+  width: 100%;
+  height: 50px;
+  background: #fff;
+  border: solid 1px #0091cf;
+  border-radius: 0; }
+  .gb-timkiem-sidebar-ruouvang .vk-newlist-banner-test-search input {
+    width: 80%;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: #333;
+    background: transparent;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    text-indent: 15px; }
+  .gb-timkiem-sidebar-ruouvang .vk-newlist-banner-test-search button {
+    width: 20%;
+    height: 48px;
+    background: #0091cf;
+    border: none;
+    border-left: 1px solid #0091cf;
+    outline: none;
+    text-align: center;
+    line-height: 44px;
+    color: #fff;
+    font-size: 14px;
+    float: right;
+    border-radius: 0;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s; }
+    .gb-timkiem-sidebar-ruouvang .vk-newlist-banner-test-search button:hover {
+      color: #0091cf;
+      background: transparent; }
+
+.gb-tuydungnhanh-sidebar-ruouvang .widget-title-sidebar-ruouvang {
+  font-size: 14px;
+  font-weight: 600;
+  text-align: left;
+  color: #333;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  position: relative;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #0091cf; }
+
+.gb-tuydungnhanh-sidebar-ruouvang .gb-product_ruouvang-item {
+  position: relative;
+  -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0);
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+  padding: 10px 0; }
+  .gb-tuydungnhanh-sidebar-ruouvang .gb-product_ruouvang-item:hover {
+    -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.05); }
+    .gb-tuydungnhanh-sidebar-ruouvang .gb-product_ruouvang-item:hover .gb-product_ruouvang-item-img .btn-addtocart_ruouvang {
+      opacity: 1;
+      top: 50%; }
+  .gb-tuydungnhanh-sidebar-ruouvang .gb-product_ruouvang-item-img {
+    width: 70px;
+    height: 70px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    overflow: hidden;
+    float: left;
+    margin-right: 15px; }
+    .gb-tuydungnhanh-sidebar-ruouvang .gb-product_ruouvang-item-img a {
+      display: block; }
+      .gb-tuydungnhanh-sidebar-ruouvang .gb-product_ruouvang-item-img a img {
+        width: 100%;
+        height: auto;
+        border-radius: 20%;
+      }
+        @media screen and (max-width: 767px) {
+          .gb-tuydungnhanh-sidebar-ruouvang .gb-product_ruouvang-item-img a img {
+            height: auto; } }
+    .gb-tuydungnhanh-sidebar-ruouvang .gb-product_ruouvang-item-img .btn-addtocart_ruouvang {
+      opacity: 0;
+      min-width: 150px;
+      display: inline-block;
+      position: absolute;
+      text-align: center;
+      top: 10%;
+      left: 50%;
+      -webkit-transform: translateX(-50%) translateY(-50%);
+      -ms-transform: translateX(-50%) translateY(-50%);
+      transform: translateX(-50%) translateY(-50%);
+      padding: 10px 0;
+      -webkit-transition: all 0.5s;
+      -o-transition: all 0.5s;
+      transition: all 0.5s; }
+  .gb-tuydungnhanh-sidebar-ruouvang .gb-product_ruouvang-item-text h2 a {
+    display: block;
+    font-size: 14px;
+    line-height: 21px;
+    color: #0091cf;
+    font-weight: 500;
+    margin-bottom: 10px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    text-align: left; }
+  .gb-tuydungnhanh-sidebar-ruouvang .gb-product_ruouvang-item-text p {
+    font-size: 14px;
+    color: #7a7a7a;
+    line-height: 24px; }
+  .gb-tuydungnhanh-sidebar-ruouvang .gb-product_ruouvang-item-text .product-xuatxu-dungtich-percent {
+    margin-bottom: 10px; }
+    .gb-tuydungnhanh-sidebar-ruouvang .gb-product_ruouvang-item-text .product-xuatxu-dungtich-percent li {
+      display: inline-block;
+      width: 32%;
+      font-size: 14px;
+      color: #7a7a7a;
+      line-height: 22px;
+      text-align: center;
+      text-align: center; }
+  .gb-tuydungnhanh-sidebar-ruouvang .gb-product_ruouvang-item .gb-product_ruouvang-item-yeumua a {
+    width: 50%;
+    float: left; }
+
+.gb-recenpost-sidebar-ruouvang .widget-title-sidebar-ruouvang {
+  font-size: 14px;
+  font-weight: 600;
+  text-align: left;
+  color: #fff;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  position: relative;
+  line-height: 40px;
+  padding-left: 10px;
+  background: #0091cf;
+  border-left: 5px solid #f79321; }
+
+.gb-recenpost-sidebar-ruouvang .gb-blog-left-recent-posts_ruouvang ul {
+  padding: 0; }
+  .gb-recenpost-sidebar-ruouvang .gb-blog-left-recent-posts_ruouvang ul li {
+    list-style-type: none;
+    clear: both;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px solid #eee; }
+    .gb-recenpost-sidebar-ruouvang .gb-blog-left-recent-posts_ruouvang ul li:first-child {
+      padding-top: 0;
+      border: none; }
+    .gb-recenpost-sidebar-ruouvang .gb-blog-left-recent-posts_ruouvang ul li .gb-item-recent-posts_ruouvang .gb-item-recent-posts_ruouvang-img {
+      float: left;
+      margin-right: 20px;
+      position: relative; }
+      .gb-recenpost-sidebar-ruouvang .gb-blog-left-recent-posts_ruouvang ul li .gb-item-recent-posts_ruouvang .gb-item-recent-posts_ruouvang-img img {
+        width: 70px;
+        height: 70px;
+        border-radius: 3px; }
+    .gb-recenpost-sidebar-ruouvang .gb-blog-left-recent-posts_ruouvang ul li .gb-item-recent-posts_ruouvang .gb-item-recent-posts_ruouvang-text {
+      padding-left: 90px; }
+      .gb-recenpost-sidebar-ruouvang .gb-blog-left-recent-posts_ruouvang ul li .gb-item-recent-posts_ruouvang .gb-item-recent-posts_ruouvang-text h2 {
+        margin: 0; }
+        .gb-recenpost-sidebar-ruouvang .gb-blog-left-recent-posts_ruouvang ul li .gb-item-recent-posts_ruouvang .gb-item-recent-posts_ruouvang-text h2 a {
+          font-size: 14px;
+          font-weight: bold;
+          line-height: 1.57;
+          text-align: left;
+          color: #222222;
+          overflow: hidden;
+          display: block;
+          margin-bottom: 10px; }
+          .gb-recenpost-sidebar-ruouvang .gb-blog-left-recent-posts_ruouvang ul li .gb-item-recent-posts_ruouvang .gb-item-recent-posts_ruouvang-text h2 a:hover {
+            text-decoration: none;
+            color: #0091cf; }
+      .gb-recenpost-sidebar-ruouvang .gb-blog-left-recent-posts_ruouvang ul li .gb-item-recent-posts_ruouvang .gb-item-recent-posts_ruouvang-text .gb-item-recent-post-time_ruouvang span {
+        font-size: 13px;
+        line-height: 2;
+        text-align: left;
+        color: #aeaeae; }
+        .gb-recenpost-sidebar-ruouvang .gb-blog-left-recent-posts_ruouvang ul li .gb-item-recent-posts_ruouvang .gb-item-recent-posts_ruouvang-text .gb-item-recent-post-time_ruouvang span .fa {
+          font-family: 'FontAwesome';
+          font-size: 14px;
+          text-align: left;
+          color: #0091cf;
+          margin-right: 10px; }
+
+.gb-page-sanpham_ruouvang-vieclammoi-ngangnghe .widget-title-sidebar-ruouvang {
+  font-size: 14px;
+  font-weight: 600;
+  text-align: left;
+  color: #fff;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  position: relative;
+  line-height: 40px;
+  padding-left: 10px;
+  background: #19a05e;
+  /*border-left: 5px solid #f79321;*/
+   }
+
+.gb-page-sanpham_ruouvang-vieclammoi-ngangnghe ul li {
+  display: block;
+  color: #1790d4;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px; }
+
+.gb-product-sidebar-ruouvang .widget-title-sidebar-ruouvang {
+  font-size: 14px;
+  font-weight: 600;
+  text-align: left;
+  color: #fff;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  position: relative;
+  line-height: 40px;
+  padding-left: 10px;
+  background: #0091cf;
+  border-left: 5px solid #f79321; }
+
+.gb-product-sidebar-ruouvang .gb-product-sidebar_ruouvang-item {
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px dashed #e0e0e0; }
+  .gb-product-sidebar-ruouvang .gb-product-sidebar_ruouvang-item:last-child {
+    border-bottom: none; }
+  .gb-product-sidebar-ruouvang .gb-product-sidebar_ruouvang-item .gb-product-sidebar_ruouvang-item-img {
+    float: left;
+    border: 1px solid #E0E0E0; }
+    .gb-product-sidebar-ruouvang .gb-product-sidebar_ruouvang-item .gb-product-sidebar_ruouvang-item-img img {
+      width: 60px;
+      height: 60px;
+      overflow: hidden; }
+  .gb-product-sidebar-ruouvang .gb-product-sidebar_ruouvang-item .gb-product-sidebar_ruouvang-item-info {
+    padding-left: 80px; }
+    .gb-product-sidebar-ruouvang .gb-product-sidebar_ruouvang-item .gb-product-sidebar_ruouvang-item-info h4 a {
+      display: block;
+      font-size: 14px;
+      line-height: 21px;
+      color: #333;
+      font-weight: 500;
+      margin-bottom: 10px;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 2;
+      overflow: hidden; }
+    .gb-product-sidebar-ruouvang .gb-product-sidebar_ruouvang-item .gb-product-sidebar_ruouvang-item-info .prices_ruouvang {
+      font-size: 14px; }
+
+.gb-filterprices-sidebar-ruouvang .widget-title-sidebar-ruouvang {
+  font-size: 14px;
+  font-weight: 600;
+  text-align: left;
+  color: #333;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  position: relative;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #0091cf; }
+
+.gb-filterprices-sidebar-ruouvang #slider-range {
+  width: 100%;
+  height: 5px;
+  background: #E0E0E0;
+  border-radius: 2px;
+  border: none;
+  margin-top: 40px; }
+
+.gb-filterprices-sidebar-ruouvang .ui-state-active {
+  border-color: transparent;
+  background: transparent; }
+
+.gb-filterprices-sidebar-ruouvang .ui-state-default {
+  position: relative;
+  border-color: transparent;
+  background: transparent;
+  outline: none; }
+  .gb-filterprices-sidebar-ruouvang .ui-state-default:before {
+    content: '';
+    width: 16px !important;
+    height: 16px !important;
+    background: #0091cf !important;
+    border: none;
+    border-radius: 50%;
+    outline: none;
+    top: 0px;
+    position: absolute; }
+  .gb-filterprices-sidebar-ruouvang .ui-state-default:after {
+    content: '';
+    width: 10px !important;
+    height: 10px !important;
+    background: #fff !important;
+    border: none;
+    border-radius: 50%;
+    outline: none;
+    top: 3px;
+    left: 3px;
+    position: absolute; }
+
+.gb-filterprices-sidebar-ruouvang .ui-slider-horizontal .ui-slider-range {
+  background: #0091cf;
+  margin-left: -5px; }
+
+.gb-filterprices-sidebar-ruouvang .ui-slider-horizontal .ui-slider-range {
+  background: #0091cf;
+  margin-left: -5px; }
+
+.gb-filterprices-sidebar-ruouvang .label-filter-price {
+  text-align: center;
+  margin-top: 25px; }
+  .gb-filterprices-sidebar-ruouvang .label-filter-price input {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    text-align: center;
+    color: #666666;
+    border: none;
+    background: transparent; }
+
+.gb-filterprices-sidebar-ruouvang .btn-filter-prince {
+  width: 100%;
+  height: 44px;
+  border: none;
+  outline: none;
+  background: #0091cf;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 14px;
+  border-radius: 3px;
+  color: #FFF;
+  position: relative;
+  margin-top: 25px;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s; }
+  .gb-filterprices-sidebar-ruouvang .btn-filter-prince:hover {
+    border: 1px solid #0091cf;
+    background: none;
+    color: #0091cf;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s; }
+
+.gb-filterprices-sidebar-ruouvang .ui-state-default, .gb-filterprices-sidebar-ruouvang .ui-widget-content .ui-state-default, .gb-filterprices-sidebar-ruouvang .ui-widget-header .ui-state-default, .gb-filterprices-sidebar-ruouvang .ui-button, .gb-filterprices-sidebar-ruouvang html .ui-button.ui-state-disabled:hover, .gb-filterprices-sidebar-ruouvang html .ui-button.ui-state-disabled:active {
+  border: none;
+  background: transparent; }
+
+.gb-locchekbox-sidebar-ruouvang .widget-title-sidebar-ruouvang {
+  font-size: 14px;
+  font-weight: 600;
+  text-align: left;
+  color: #333;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  position: relative;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #0091cf; }
+
+.gb-locchekbox-sidebar-ruouvang ul li a {
+  display: block;
+  position: relative;
+  line-height: 30px;
+  color: rgba(84, 84, 84, 0.8); }
+  .gb-locchekbox-sidebar-ruouvang ul li a:before {
+    content: " ";
+    width: 14px;
+    height: 14px;
+    border-style: solid;
+    border-width: 1px;
+    margin-right: 8px;
+    display: block;
+    float: left;
+    margin-top: 7px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px; }
+  .gb-locchekbox-sidebar-ruouvang ul li a:hover {
+    color: #f79321; }
+    .gb-locchekbox-sidebar-ruouvang ul li a:hover span {
+      border-color: #f79321; }
+  .gb-locchekbox-sidebar-ruouvang ul li a span {
+    background: rgba(84, 84, 84, 0.05);
+    color: rgba(84, 84, 84, 0.8);
+    float: right;
+    font-size: .6875rem;
+    line-height: 1;
+    padding: 6px 10px 4px !important;
+    border-radius: 10px !important;
+    -webkit-border-radius: 10px !important;
+    -moz-border-radius: 10px !important;
+    text-align: center;
+    min-width: 10px;
+    margin-top: -1px;
+    border-width: 1px;
+    border-style: solid; }
+
+/*BREARDCRUMS*/
+.gb-breadcrumbs_ruouvang {
+  background: url("../images/aboutimg.jpg") no-repeat;
+  background-size: cover;
+  height: 300px;
+  background-position: center center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+  .gb-breadcrumbs_ruouvang .hero-title-breadcrums_ruouvang {
+    color: #0091cf;
+    font-size: 40px;
+    text-shadow: 1px 1px 5px #333;
+    text-align: center; }
+
+/*search*/
+.gb-search-tinhthanh-vieclam h2 {
+  color: #000;
+  font-size: 20px;
+  text-align: center; }
+
+.gb-search-tinhthanh-vieclam ul li a {
+  display: block;
+  color: #1790d4;
+      font-weight: 500;
+    font-size: 16px;
+  line-height: 30px; }
+
+.gb-header-search_ruouvang .vk-newlist-banner-test-search button {
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s; }
+
+.gb-header-search_ruouvang .vk-newlist-banner-test-search button:hover {
+  background: #0091cf;
+  color: #fff; }
+
+.gb-header-search_ruouvang form {
+  border-radius: 0;
+  overflow: hidden; }
+
+.gb-header-search_ruouvang .vk-newlist-banner-test-search {
+  width: 100%;
+  height: 50px;
+  background: #fff;
+  border: solid 1px #0091cf;
+  border-radius: 0; }
+  .gb-header-search_ruouvang .vk-newlist-banner-test-search input {
+    width: 80%;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: #333;
+    background: transparent;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    text-indent: 15px; }
+  .gb-header-search_ruouvang .vk-newlist-banner-test-search button {
+    width: 20%;
+    height: 48px;
+    background: #0091cf;
+    border: none;
+    border-left: 1px solid #0091cf;
+    outline: none;
+    text-align: center;
+    line-height: 44px;
+    color: #fff;
+    font-size: 14px;
+    float: right;
+    border-radius: 0;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s; }
+    .gb-header-search_ruouvang .vk-newlist-banner-test-search button:hover {
+      color: #0091cf;
+      background: transparent; }
+
+.gb-search-filter-vieclam {
+  background: #19a05e; }
+  .gb-search-filter-vieclam .form-group {
+    margin: 4px 0; }
+  .gb-search-filter-vieclam .form-control {
+    border-radius: 0; }
+  .gb-search-filter-vieclam .btn-timkiem-vieclam {
+    background: transparent;
+    width: 100%;
+    border: 1px solid #fff;
+    color: #fff;
+    font-weight: bold; }
+
+/*CONTACT*/
+.gb-hotlinetuvasn-vieclam-home {
+  margin-bottom: 15px; }
+  .gb-hotlinetuvasn-vieclam-home .gb-hotlinetuvasn-vieclam-home-title h4 {
+    background: #2f5177;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 8px;
+    text-align: center; }
+  .gb-hotlinetuvasn-vieclam-home .gb-hotlinetuvasn-vieclam-home-item {
+    padding-top: 15px; }
+    .gb-hotlinetuvasn-vieclam-home .gb-hotlinetuvasn-vieclam-home-item h3 {
+      font-weight: 600;
+      font-size: 20px;
+      margin-bottom: 15px;
+      text-align: center;
+      color: #009550;
+    }
+      .gb-hotlinetuvasn-vieclam-home .gb-hotlinetuvasn-vieclam-home-item h3 span {
+        color: #fc205c; }
+    .gb-hotlinetuvasn-vieclam-home .gb-hotlinetuvasn-vieclam-home-item ul li {
+      display: inline-block;
+      font-size: 14px;
+      line-height: 30px; }
+      .gb-hotlinetuvasn-vieclam-home .gb-hotlinetuvasn-vieclam-home-item ul li span {
+        color: #1790d4;
+        font-weight: bold; }
+
+.gb-gioithieu-company {
+  background: #f4f4f4;
+  padding: 20px;
+  margin-bottom: 40px; }
+  .gb-gioithieu-company h2 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    text-transform: uppercase;
+    margin-bottom: 10px; }
+  .gb-gioithieu-company p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #333; }
+  .gb-gioithieu-company .gb-dress-intro ul li {
+    display: flow-root;
+    margin-bottom: 10px; }
+    .gb-gioithieu-company .gb-dress-intro ul li .icons {
+      width: 40px;
+      height: 40px;
+      border: 1px solid #0091cf;
+      display: -webkit-inline-box;
+      display: -ms-inline-flexbox;
+      display: inline-flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      color: #0091cf;
+      float: left; }
+    .gb-gioithieu-company .gb-dress-intro ul li p {
+      padding-left: 60px;
+      color: #333;
+      font-size: 16px;
+      line-height: 1.5; }
+  .gb-gioithieu-company .gb-support-intro ul li {
+    display: flow-root;
+    margin-bottom: 10px; }
+    .gb-gioithieu-company .gb-support-intro ul li .icons {
+      width: 35px;
+      height: 25px;
+      display: -webkit-inline-box;
+      display: -ms-inline-flexbox;
+      display: inline-flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      color: #0091cf;
+      float: left; }
+    .gb-gioithieu-company .gb-support-intro ul li p {
+      padding-left: 60px;
+      color: #333;
+      font-size: 16px; }
+
+.gb-header-between_ruouvang-between {
+  padding-top: 10px; }
+  .gb-header-between_ruouvang-between ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .gb-header-between_ruouvang-between ul li {
+      width: 50%;
+      float: left; }
+      .gb-header-between_ruouvang-between ul li .icons_ruouvang {
+        width: 40px;
+        height: 40px;
+        border: 1px solid #f79321;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        font-size: 18px;
+        color: #f79321;
+        border-radius: 50%;
+        float: left; }
+      .gb-header-between_ruouvang-between ul li .info_support_ruouvang {
+        width: calc(100% - 40px);
+        float: left;
+        padding-left: 15px; }
+        .gb-header-between_ruouvang-between ul li .info_support_ruouvang h3 {
+          font-size: 14px;
+          font-weight: 500;
+          line-height: 24px; }
+        .gb-header-between_ruouvang-between ul li .info_support_ruouvang span {
+          font-size: 13px;
+          display: block; }
+
+/*BANNER*/
+.gb-banner_ruouvang-vieclam {
+  padding-bottom: 30px; }
+
+.gb-banner-2-ruouvang a {
+  display: block; }
+  .gb-banner-2-ruouvang a img {
+    width: 100%;
+    height: auto; }
+
+.gb-banner-3-ruouvang a {
+  display: block; }
+  .gb-banner-3-ruouvang a img {
+    width: 100%;
+    height: auto; }
+
+.gb-banner-4-ruouvang {
+  padding-bottom: 50px; }
+
+.gb-taisaolaichonchungtoi_ruouvang-item{
+  background: #19a05e;
+  border-radius: 40px;
+}
+/*characteristic*/
+.gb-taisaolaichonchungtoi_ruouvang {
+  /*background: #fc205c;*/
+  padding: 15px 0;
+  margin: 30px 0 7px;
+}
+  .gb-taisaolaichonchungtoi_ruouvang .gb-taisaolaichonchungtoi_ruouvang-title {
+    margin-bottom: 40px; }
+    .gb-taisaolaichonchungtoi_ruouvang .gb-taisaolaichonchungtoi_ruouvang-title h3 {
+      font-size: 24px;
+      text-transform: uppercase;
+      text-align: center;
+      color: #fff; }
+      .gb-taisaolaichonchungtoi_ruouvang .gb-taisaolaichonchungtoi_ruouvang-title h3 span {
+        color: #f79321; }
+  .gb-taisaolaichonchungtoi_ruouvang .gb-taisaolaichonchungtoi_ruouvang-item h4 {
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+  }
+  .gb-taisaolaichonchungtoi_ruouvang .gb-taisaolaichonchungtoi_ruouvang-item p {
+    font-size: 16px;
+    color: #fff;
+    text-align: center; }
+
+/*REGISTER*/
+.gb-dangnhapdangky-vieclam{
+  margin-top: 10px;
+}
+.gb-dangnhapdangky-vieclam-boder{
+  /*border: 1px solid #0091cf;*/
+  padding: 10px 10px 0 10px;
+}
+.gb-dangnhapdangky-vieclam .gb-dangnhapdangky-vieclam-item {
+  padding: 2px 0; }
+  .gb-dangnhapdangky-vieclam .gb-dangnhapdangky-vieclam-item a {
+    display: block;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #fff;
+    text-align: center; }
+    .gb-dangnhapdangky-vieclam .gb-dangnhapdangky-vieclam-item a i {
+      display: block;
+      font-size: 36px;
+      margin-bottom: 15px; }
+
+.gb-dangnhapdangky-vieclam .dangnhap-vieclam {
+  background: #0091cf; }
+  @media screen and (max-width: 991px){
+    .gb-dangnhapdangky-vieclam .dangnhap-vieclam{
+      /*margin-bottom: 15px;*/
+    }
+  }
+
+.gb-dangnhapdangky-vieclam .dangky-vieclam {
+  background: #fc205c; }
+
+.gb-dangky-tuyendung h1 {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 15px;
+  text-align: center;
+  text-transform: uppercase;
+      margin-top: 30px;
+}
+
+.gb-dangky-tuyendung h2 {
+      color: #1790d4;
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 15px;
+  text-align: center;
+  text-transform: uppercase; }
+
+.gb-dangky-tuyendung label {
+  display: block;
+  color: #1790d4;
+  font-weight: 400; }
+
+.gb-dangky-tuyendung .gb-dangky-tuyendung-head {
+  background: #2d9290;
+  padding: 30px 0px 0px 0px;
+  margin: 30px 0; }
+  .gb-dangky-tuyendung .gb-dangky-tuyendung-head label {
+    color: #fff; }
+  .gb-dangky-tuyendung .gb-dangky-tuyendung-head h1 {
+    color: #fff; }
+
+.gb-dangky-tuyendung .gb-dangky-tuyendung-info {
+  background: #f1f1f1;
+  padding: 30px 0;
+  margin: 30px 0; }
+
+.gb-dangky-ungvien {
+  padding: 50px 0; }
+  .gb-dangky-ungvien h1 {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+    text-transform: uppercase; }
+  .gb-dangky-ungvien h2 {
+    color: #1790d4;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+    text-transform: uppercase; }
+  .gb-dangky-ungvien label {
+    display: block;
+    color: #1790d4;
+    font-weight: 400; }
+  .gb-dangky-ungvien .gb-dangky-tuyendung-head {
+    background: #2d9290;
+    padding: 30px 0;
+    margin: 30px 0; }
+    .gb-dangky-ungvien .gb-dangky-tuyendung-head label {
+      color: #fff; }
+    .gb-dangky-ungvien .gb-dangky-tuyendung-head h1 {
+      color: #fff; }
+  .gb-dangky-ungvien .gb-dangky-tuyendung-info {
+    background: #f1f1f1;
+    margin: 30px 0;
+    padding: 30px 0px 0px 0px;
+  }
+
+.gb-page-ungvien .gb-search-filter-vieclam{
+  background: #2f5177;
+}
+
+.gb-page-ungvien .gb-page-sanpham_ruouvang .gb-page-sanpham_ruouvang-title{
+  
+}
+.gb-page-ungvien .gb-page-sanpham_ruouvang-vieclammoi-ngangnghe .widget-title-sidebar-ruouvang{
+  background: #2f5177;
+}
+.btn-dangkynhatuyendung input{
+    color: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.dangnhapnhatuyendung{
+  background: #3f51b5;
+  padding:  30px;
+  margin-bottom: 20px;
+}
+
+.dangnhapnhatuyendung h4{
+font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+    color: #fff;
+    text-transform:  uppercase;
+}
+.dangnhapnhatuyendung label{
+  display:  block;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 10px;
+    text-align: left;
+    color: #fff;
+}
+
+.dangnhapnhatuyendung .btn-default{
+  color: #000;
+  text-shadow: none;
+  box-shadow: none;
+  font-style: 14px;
+  text-transform: uppercase;
+
+}
+
+.dangnhapnhaungvien{
+  background: #19a05e;
+  padding:  30px;
+  margin-bottom: 20px;
+}
+
+.dangnhapnhaungvien h4{
+font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+    color: #fff;
+    text-transform:  uppercase;
+}
+.dangnhapnhaungvien label{
+  display:  block;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 10px;
+    text-align: left;
+    color: #fff;
+}
+
+.dangnhapnhaungvien .btn-default{
+  color: #000;
+  text-shadow: none;
+  box-shadow: none;
+  font-style: 14px;
+  text-transform: uppercase;
+
+}
+
+.dangnhapnhaungvien1{
+  background: #2d9290;
+  padding:  30px;
+}
+
+.dangnhapnhaungvien1 h4{
+font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+    color: #fff;
+    text-transform:  uppercase;
+}
+.dangnhapnhaungvien1 label{
+  display:  block;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 10px;
+    text-align: left;
+    color: #fff;
+}
+
+.dangnhapnhaungvien1 .btn-default{
+  color: #000;
+  text-shadow: none;
+  box-shadow: none;
+  font-style: 14px;
+  text-transform: uppercase;
+
+}
+
+.btn-capnhattintuyendung{ 
+  /*background: #499cd6;*/
+  font-weight: 600;
+    font-size: 14px;
+    color: #000;
+    font-weight: bold;
+    text-transform: uppercase;
+
+ }
+
+
+ .gb-page-ungvienphpthong .gb-search-filter-vieclam{
+  background: #2d9290;
+}
+
+.gb-page-ungvienphpthong .gb-page-sanpham_ruouvang .gb-page-sanpham_ruouvang-title{
+
+}
+.gb-page-ungvienphpthong .gb-page-sanpham_ruouvang-vieclammoi-ngangnghe .widget-title-sidebar-ruouvang{
+  background: #2d9290;
+}
+.titlecamon{
+      color: #1790d4;
+      font-size: 15px;
+      font-weight: 600;
+      margin-top: 30px;
+      text-align: center;
+          font-style: italic;
+}
+.gb-page-sanpham_ruouvang-vieclammoi-ngangnghe ul li a{
+  display: block;
+  font-style: 14px;
+  line-height: 40px;
+  font-weight: 500;
+  border-bottom: 1px solid rgba(174, 174, 174, 0.21);
+}
+.gb-page-sanpham_ruouvang-vieclammoi-ngangnghe ul{
+  height: 938px;
+  overflow-y: scroll;
+}
+.gb-page-sanpham_ruouvang-vieclammoi-ngangnghe ul::-webkit-scrollbar-track {
+      -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+      background-color: #F5F5F5; }
+    .gb-page-sanpham_ruouvang-vieclammoi-ngangnghe ul::-webkit-scrollbar {
+      width: 6px;
+      background-color: #F5F5F5; }
+    .gb-page-sanpham_ruouvang-vieclammoi-ngangnghe ul::-webkit-scrollbar-thumb {
+      background-color: rgba(0, 0, 0, 0.3); }
+
+.search-diadiemheader .dropdown-menu ul li a{
+  display: block;
+  font-style: 14px;
+  line-height: 40px;
+  font-weight: 300;
+  border-bottom: 1px solid rgba(174, 174, 174, 0.21);
+} 
+.info-address-calendar-map{
+  display: flex;
+  text-align: right;
+}
+.info-address-calendar-map li{
+  width: 30%;
+  float: left;
+  /*margin: 0 8px;*/
+}
+
+.gb-page-tuyendung .gb-search-filter-vieclam{
+  background: #6b5751;
+}
+
+.gb-page-tuyendung .gb-page-sanpham_ruouvang .gb-page-sanpham_ruouvang-title{
+ 
+}
+.gb-page-tuyendung .gb-page-sanpham_ruouvang-vieclammoi-ngangnghe .widget-title-sidebar-ruouvang{
+  background: #19a05e;
+  text-align: center;
+}
+.gb-page-sanpham_ruouvang .col-sm-4{
+  padding-left: 3.5px;
+  padding-right: 3.5px;
+}
+.gb-page-sanpham_ruouvang .row{
+  margin-left: -3.5px;
+  margin-right: -3.5px;
+}
+.gb-product_ruouvang-item .info-address-calendar-map{
+  /*display: block;*/
+  text-align: left;
+}
+.gb-product_ruouvang-item .info-address-calendar-map li{
+display: inline-block;
+/*width: auto;*/
+float: none;
+margin: 0 0px;
+}
+.gb-product_ruouvang-item .info-address-calendar-map li:last-child{
+  text-align: right;
+}
+.gb-product_ruouvang-item .kn-date-map li:first-child{
+  width: 70%;
+}
+.gb-product_ruouvang-item .kn-date-map li:last-child{
+  /*width: 25%;*/
+  text-align: right;
+}
+.gb-page-sanpham_ruouvang-vieclammoi .ngaynophoso-sp{
+  font-size: 12px;
+    color: #7a7a7a;
+    line-height: 24px;
+}
+.kn-date-map-3 li{
+
+}
+.gb-product_ruouvang-item .kn-date-map-3 li:first-child{
+  width: 35%;
+}
+.gb-product_ruouvang-item .kn-date-map-3 li:nth-child(2){
+  width: 30%;
+}
+.gb-product_ruouvang-item .kn-date-map-3 li:last-child{
+  width: 25%;
+  text-align: right;
+}
+.has-sub-tencty{
+  width: 210px;
+}
+.btn-default{
+  background: #fff;
+}
+/*tuan*/
+#btn-tim {
+  background-color: rgba(0,0,0,0);
+    color: white;
+    border: 0;
+    float: right;
+}
+.gb-page-sanpham_ruouvang-vieclammoi-scroll{
+	height: 900px;
+	overflow-y: scroll;
+}
+
+.gb-page-sanpham_ruouvang-vieclammoi-scroll::-webkit-scrollbar-track {
+      -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+      background-color: #F5F5F5; }
+    .gb-page-sanpham_ruouvang-vieclammoi-scroll::-webkit-scrollbar {
+      width: 6px;
+      background-color: #F5F5F5; }
+   .gb-page-sanpham_ruouvang-vieclammoi-scroll::-webkit-scrollbar-thumb {
+      background-color: rgba(0, 0, 0, 0.3); }
+
+      .gb-chitiet-vieclam .gb-chitiet-vieclam-img{
+      	height: 148.5px;
+      	overflow:hidden;
+      }
+      .gb-chitiet-vieclam .gb-chitiet-vieclam-img img{
+      	height: 90%;
+      	width: 81%;
+        border-radius: 15%;
+        border: 3px solid #fff;
+      	margin:  0 auto;
+        margin-top: 5%;
+        margin-left: 0%;
+      }
+.gb-chitiet-vieclam-left-contact ul li{
+	/*color: #0091cf !important;*/
+}
+.gb-chitiet-vieclam-left-contact ul li span{
+  color: #de5449;
+  font-weight: bolder;
+  font-size: 13px;
+}
+.gb-chitiet-vieclam-left-contact ul li a{
+  color: #fff;
+}
+.gb-chitiet-vieclam-left-contact ul li a i {
+  margin-left: 5px;
+}
+.gb-chitiet-vieclam-left-contact ul li a i:hover {
+  color: #ffce45;
+}
+/*tuan*/
+.gb-page-sanpham_ruouvang .owl-nav [class*=owl-] {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 53px;
+    height: 92px;
+    background: transparent !important;
+    border: none;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s; }
+.gb-page-sanpham_ruouvang .owl-nav [class*=owl-]:hover {
+      background: transparent !important;
+      border-color: #0091cf; }
+  .gb-page-sanpham_ruouvang .owl-nav {
+    margin-top: 0 !important; }
+    @media screen and (max-width: 991px) and (min-width: 768px) {
+      .gb-page-sanpham_ruouvang .owl-nav {
+        top: -78px; } }
+.gb-page-sanpham_ruouvang .owl-nav .owl-prev {
+      position: absolute;
+      top: 45%;
+      left: -60px;
+      display: -webkit-box !important;
+      display: -ms-flexbox !important;
+      display: flex !important; }
+      .gb-page-sanpham_ruouvang .owl-nav .owl-prev:before {
+        content: '';
+        background: url("../images/icons/md-left.svg");
+        width: 53px;
+        height: 92px;
+        font-family: FontAwesome;
+        color: #fff;
+        font-size: 20px; }
+.gb-page-sanpham_ruouvang .owl-nav .owl-next {
+      position: absolute;
+      top: 45%;
+      right: -60px;
+      display: -webkit-box !important;
+      display: -ms-flexbox !important;
+      display: flex !important; }
+      .gb-page-sanpham_ruouvang .owl-nav .owl-next:before {
+        content: '';
+        background: url("../images/icons/md-right.svg");
+        width: 53px;
+        height: 92px;
+        font-family: FontAwesome;
+        color: #fff;
+        font-size: 20px; }
+        .kn-date-map-2 li:first-child{
+        	width: 70%;
+        }
+        .kn-date-map-2 li:last-child{
+        	width: 30%;
+        }
+
+.gb-page-gioithieu table{
+	width: 100% !important;
+}
+.gb-page-gioithieu table th{
+	border: 1px solid #ccc;
+	padding: 8px;
+}
+.gb-page-gioithieu table td{
+	border: 1px solid #ccc;
+	padding: 8px;
+}
+.gb-page-gioithieu{
+	padding: 30px 0;
+}
+.gb-page-gioithieu .gb-page-gioithieu-title{
+	    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.btn-nophosoungtuyen{
+	background:#499cd6 ;
+	border: 1px solid #499cd6;
+	padding: 7px 15px;
+	color: #fff;
+	border-radius: 30px;
+	margin-top: 20px;
+	font-weight: 600;
+	font-size: 17px;
+  margin-left: 30%;
+}
+/*tuan*/
+ul.menu-mobile-spec {
+  display: none;
+}
+ul.menu-mobile-spec li a {
+  font-size: 13px;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+}
+ul.menu-mobile-spec li {
+  /*display: inline-block;*/
+}
+@media screen and (min-width: 991px) {
+  .gb-dangnhapdangky-vieclam .ptd_edit_home_resi {
+    display: none;
+  }
+  .gb-dangnhapdangky-vieclam .ptd_edit_home_resi_item {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 991px) {
+  .gb-page-ungvien .gb-search-filter-vieclam {
+    display: none;
+  }
+}
+
+/*tuan*/
+.active-menu-pc {
+  color: #ffce45 !important;
+}
+.hot {
+  color: #fff;
+  background: red;
+  padding: 3px 5px;
+  border-radius: 5px;
+  font-size: 10px;
+}
+/*icon search*/
+.input-icons i { 
+    position: absolute; 
+} 
+  
+.input-icons { 
+    width: 100%; 
+    margin-bottom: 10px; 
+} 
+  
+.icon { 
+    padding: 8px; 
+    min-width: 40px; 
+    text-align: center;
+} 
+  
+.input-field { 
+    width: 100%; 
+    padding: 10px; 
+    padding-left: 32px;
+}
+
+.bootstrap-select.btn-group .btn .filter-option {
+  color: #a5a3a3;
+}
+
+@media screen and (max-width: 991px) {
+  .gb-banner_ruouvang-vieclam {
+     padding-bottom: 0; 
+  }
+}
+@media screen and (max-width: 768px){
+  #tawkchat-container iframe{
+    bottom: 45px !important;
+  }
+}
+
+.select-padding-left {
+  padding-left: 30px;
+}
+.select-bold {
+  font-weight: bold;
+}
